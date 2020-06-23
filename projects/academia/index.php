@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz"></div>
+
+<script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+<script src="https://d3js.org/d3-quadtree.v1.min.js"></script>
+<script src="https://d3js.org/d3-timer.v1.min.js"></script>
+<script src="https://d3js.org/d3-force.v2.min.js"></script>
+
+
+<canvas id="network" width="500" height="500"></canvas>
+
+<style>
+
+        .links line {
+        stroke: #999;
+        stroke-opacity: 0.6;
+        }
+
+        
+        text:hover {
+            cursor:pointer;
+            opacity: 1;
+        }
+
+
+        .nodes circle {
+        stroke: #fff;
+        stroke-width: 1.5px;
+        }
+
+        text {
+        font-family: sans-serif;
+        font-size: 10px;
+        opacity: 0.3;
+        }
+
+        svg {
+            fill: black
+
+        }
+
+
+</style>
+
+<head>
+    <!--<H1>hallochen</H1>
+    <script src="ND.js"></script>-->
+    <h1>network graph</h1>
+    <p>My First Paragraph</p>
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+<script src="https://d3js.org/d3.v4.js"></script>
+<!--<canvas id="network" width="500" height="500"></canvas>-->
+<svg width="960" height="600"></svg>
+
+<!--<script src="network_test1.js"></script>-->
+
+<script src="network_test2.js"></script>
+
+
+
+</body>
+
+
+
+</html>

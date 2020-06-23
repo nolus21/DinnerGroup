@@ -1,0 +1,47 @@
+{
+
+    "nodes": [
+      {"name": "Architecture", "group":36, "url": "https://www.atlasofplaces.com/"},
+      {"name": "Academia", "group":87},
+      {"name": "Spatial Strategies", "group":87},
+      {"name": "Visualisation", "group":36},
+      {"name": "Art", "group":50},
+      {"name": "Design", "group":36},
+      {"name": "Politics", "group":36},
+      {"name": "Data mapping", "group":36},
+      {"name": "Web development", "group":36},
+      {"name": "Data storytelling", "group":36},
+
+    {"name": "BUBIK", "group":1},
+      {"name": "Wyspianski Museum", "group":50},
+      {"name": "SkyLense Pavilion", "group":36},
+      {"name": "UW University Courtyard", "group":50},
+      {"name": "Smichov School", "group":36},
+      {"name": "Other", "group":36},
+      {"name": "Other2", "group":36},
+      {"name": "Other3", "group":36}
+
+  
+  
+    ],
+
+"links": [
+{"source": "Architecture", "target":"BUBIK", "value": 1},
+{"source": "Architecture", "target":"Wyspianski Museum", "value": 1},
+{"source": "Architecture", "target":"SkyLense Pavilion", "value": 1},
+{"source": "Architecture", "target":"UW University Courtyard", "value": 1},
+
+{"source": "Art", "target":"Other3", "value": 5},
+{"source": "Art", "target":"Politics", "value": 5},
+{"source": "Art", "target":"Other3", "value": 5},
+{"source": "Art", "target":"Design", "value": 5},
+{"source": "Art", "target":"Other3", "value": 5},
+{"source": "Art", "target":"Other", "value": 5},
+{"source": "Art", "target":"Academia", "value": 5}
+
+
+
+
+]
+
+  }

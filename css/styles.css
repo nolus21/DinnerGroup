@@ -1,0 +1,1400 @@
+/*
+-----------------------------------------------
+		www.atlasofplaces.com
+	 by www.lichtsignale.de
+----------------------------------------------- */
+
+
+/*		R E S E T
+----------------------------------------------- */
+
+html, body, div, span, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+		margin: 0;
+	    padding: 0;
+	    border: 0;
+	    outline: 0;
+	    font-size: 100%;
+	    vertical-align: baseline;
+	    background: transparent;
+	    font-variant-ligatures: none;
+}
+
+html {
+		height: 100%;
+		-ms-text-size-adjust: none;
+		-webkit-text-size-adjust: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { 
+	    display: block;
+}
+
+blockquote, q {
+	    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	    content: "";
+	    content: none;
+}
+
+a {
+	    margin: 0;
+	    padding: 0;
+	    font-size: 100%;
+	    vertical-align: baseline;
+	    background: transparent;
+}
+
+table {
+	    border-collapse: collapse;
+	    border-spacing: 0;
+}
+
+input, select {
+	    vertical-align: middle;
+}
+
+
+/*		W E B F O N T S
+----------------------------------------------- */
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3697886, 2019-01-14T13:13:02-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: UniversNextPro-Regular by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers-next/pro-430-basic-regular/
+ * Copyright: Copyright &#x00A9; 2010 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Univers is a trademark of Linotype Corp. regi
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3697886
+ * 
+ * Â© 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/386cde");
+
+  
+@font-face {
+		font-family: "AOP Univers";
+		src: url('fonts/386CDE_0_0.eot');
+		src: url('fonts/386CDE_0_0.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/386CDE_0_0.woff2') format('woff2'),
+			 url('fonts/386CDE_0_0.woff') format('woff'),
+			 url('fonts/386CDE_0_0.ttf') format('truetype'),
+			 url('fonts/386CDE_0_0.svg#wf') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=e289e088-cf0e-4e6b-a44a-7f04c1359c94&fontids=777517,777529");
+
+@font-face{
+		font-family: "AOP Univers";
+		src: url("fonts/c7c85fe0-8d8c-47b2-9c0c-418c64aad350.eot?#iefix");
+		src: url("fonts/c7c85fe0-8d8c-47b2-9c0c-418c64aad350.eot?#iefix") format("eot"),
+			 url("fonts/c286361c-8fad-42e9-a699-52cf25e755ae.woff2") format("woff2"),
+			 url("fonts/e1560e38-2ee2-4502-8c26-3a8c9013b031.woff") format("woff"),
+			 url("fonts/d566a595-2a5d-44ff-a633-4afdcccd528b.ttf") format("truetype");
+		font-weight: normal;
+		font-style: italic;
+}
+
+@font-face{
+		font-family: "AOP Univers";
+		src: url("fonts/3d4372d2-fbf8-4376-887c-a4247fe7475f.eot?#iefix");
+		src: url("fonts/3d4372d2-fbf8-4376-887c-a4247fe7475f.eot?#iefix") format("eot"),
+			 url("fonts/086dc2f3-0872-4cae-aa0f-f66b64139049.woff2") format("woff2"),
+			 url("fonts/5726bf63-b50c-4eb5-8615-36daaa1b3f99.woff") format("woff"),
+			 url("fonts/f4f44dd1-4235-4aaf-86d0-2b58f230cdaf.ttf") format("truetype");
+		font-weight: bold;
+		font-style: normal;
+}
+
+@font-face {
+	    font-family: 'AOP Icons';
+	    src: url('fonts/aop_icons.eot');
+	    src: url('fonts/aop_icons.eot?#iefix') format('embedded-opentype'),
+	         url('fonts/aop_icons.woff') format('woff'),
+	         url('fonts/aop_icons.ttf') format('truetype');
+	    font-weight: normal;
+	    font-style: normal;
+}
+
+
+/*		B A S I C S
+----------------------------------------------- */
+
+body {
+		color: #111;
+		background: #fff;
+		font-family: 'Times New Roman', Times, serif; /*"AOP Univers", "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;*/
+		font-size: 15px;
+		line-height: 20px;
+		letter-spacing: 0.02em;
+		word-spacing: -0.025em;
+		text-align: left;
+}
+
+h1, h2, h3 {
+		font-weight: bold;
+		font-style: normal;
+		font-family: 'Times New Roman', Times, serif;
+}
+
+em, i {
+		font-style: italic;
+}
+
+strong, b {
+		font-weight: bold;
+}
+
+input:focus {
+		outline: none;
+}
+
+a:link, a:visited {
+		color: #111;
+		text-decoration: none;
+}
+
+a:hover, a:active {
+		color: #ff2a1b;
+}
+
+
+img * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+/*img:not(:hover) {
+	opacity: 1s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%) opacity(30%); 
+	-webkit-transition: opacity 0.35s;
+  	transition: opacity 5s;*/
+
+}
+
+small {
+		font-size: 80%;
+		letter-spacing: 0.05em;
+		position: relative;
+		top: -2px;
+}
+
+
+/*		H E A D E R
+----------------------------------------------- */
+
+header {
+		margin: 0 15px 10px 15px;
+		padding-top: 10px;
+		position: relative;
+		border-bottom: 1px solid #111;
+}
+
+header nav li {
+		list-style: none;
+		float: left;
+		margin-right: 10px;
+}
+
+header .active {
+		border-bottom: 1px solid #111;
+}
+
+header #about {
+		float: right !important;
+}
+
+#pagerandom header #about {
+		margin-top: 3px;
+}
+
+header #searchlink:hover {
+		color: #ff2a1b;
+		cursor: pointer;
+}
+
+header form {
+		padding-top: 40px;
+}
+
+header #search {
+		border: 0;
+		padding: 0;
+		width: 100%;
+		font: inherit;
+		opacity: 0;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		transition: all 0.5s;
+		cursor: default;
+		font-size: 125%;
+		line-height: 1.25;
+		letter-spacing: 0.01em;
+}
+
+header #search:focus {
+		opacity: 1;
+		-webkit-transition: all 0.25s;
+		-moz-transition: all 0.25s;
+		transition: all 0.25s;
+		background: transparent;
+}
+
+.visible {
+		opacity: 1 !important;
+}
+
+header .pagesearch {
+		opacity: 1 !important;
+}
+
+::placeholder {
+		color: #ff2a1b;
+		opacity: 1;
+}
+
+:-ms-input-placeholder {
+		color: #ff2a1b;
+}
+
+::-ms-input-placeholder {
+		color: #ff2a1b;
+}
+
+
+/*		M A I N
+----------------------------------------------- */
+
+#intro {
+		margin: 0 15px 40px 15px;
+		font-size: 125%;
+		line-height: 1.25;
+		letter-spacing: 0.01em;
+}
+
+#intro h1 {
+		display: inline;
+}
+
+#intro a:link, #intro a:visited, .entry a:link, .entry a:visited, .text a:link, .text a:visited {
+		border-bottom: 1px dotted #111;
+}
+
+#main {
+		margin: 10px 15px 0 15px;
+		padding-bottom: 25px;
+}
+
+
+#vis {
+	margin: 10px 15px 0 15px;
+	padding-bottom: 25px;
+}
+
+#main img {
+		max-width: 100%;
+		height: auto;
+}
+
+
+/*		O V E R V I E W
+----------------------------------------------- */
+
+
+/*		Aleks rows and columns
+----------------------------------------------- */
+
+
+
+/*		Aleks rows and columns
+----------------------------------------------- */
+
+
+.overview a {
+		display: block;
+		margin-bottom: 20px;
+		cursor: pointer
+}
+
+.overview div {
+		position: relative;
+}
+
+.overview img {
+		width: 100%;
+		opacity: 0;
+}
+
+.overview img:not(.initial) {
+		transition: opacity 1s;
+}
+
+.overview img.initial, .overview img.loaded, .overview img.error {
+		opacity: 1;
+}
+
+.overview img:not([src]) {
+		visibility: hidden;
+}
+
+.overview strong {
+		position: absolute;
+		left: 0;
+		top: 46%;
+		width: 100%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 200%;
+		font-size: 10vw;
+		line-height: 1;
+		letter-spacing: 0.025em;
+		font-weight: bold;
+}
+
+.overview span {
+		display: inline-block;
+		line-height: 1.1;
+}
+
+#pagerandom #main a {
+		display: block;
+		margin-bottom: 14px;
+}
+
+#pagerandom div {
+		display: block;
+		float: left;
+		position: relative;
+		top: -3px;
+}
+
+#pagerandom span {
+		padding-right: 3px;
+}
+
+#pagerandom img {
+		margin-left: 80px;
+		width: 60%;
+		width: calc(100% - 80px);
+		display: block;
+}
+
+/*		Aleks Visualisation
+----------------------------------------------- */
+
+.vis a {
+	display: flex-start;
+	margin-bottom: 5px;
+	cursor: pointer
+}
+
+.vis div {
+	position: relative;
+}
+
+.vis img {
+	height: 100%;
+	opacity: 0;
+}
+
+.vis img:not(.initial) {
+	transition: opacity 1s;
+}
+
+.vis img.initial, .vis img.loaded, .vis img.error {
+	opacity: 1;
+}
+
+.vis img:not([src]) {
+	visibility: hidden;
+}
+
+.vis strong {
+	position: absolute;
+	left: 0;
+	top: 46%;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 200%;
+	font-size: 10vw;
+	line-height: 1;
+	letter-spacing: 0.025em;
+	font-weight: bold;
+}
+
+.vis span {
+	display: inline-block;
+	line-height: 1.1;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 0px;
+	position: relative;
+	vertical-align: middle;
+	border: 10px solid red;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+	flex: 40%;
+	max-width: 100%;
+	margin: 35px;
+	position: relative;
+	vertical-align: middle;
+  }
+  
+  .column img {
+	
+	margin-top: 5px;
+	margin-bottom: 25px;
+
+	vertical-align: middle;
+  }
+
+/* VISUALISATION BUTTONS!!! */
+/* VISUALISATION BUTTONS!!! */
+/* VISUALISATION BUTTONS!!! */
+/* VISUALISATION BUTTONS!!! */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+figure.visual {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  background: #ffffff;
+  color: #222;
+  text-align: center;
+
+}
+figure.visual * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+figure.visual img {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.visual figcaption {
+  position: absolute;
+/*here for posititioning of the citation over the image */
+  bottom: 50%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  
+}
+figure.visual h2,
+figure.visual p {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  opacity: 0;
+}
+figure.visual h2 {
+/*this is alligning vertically the text**/
+
+  padding: 0px 0px;
+  display: inline-block;
+  font-weight: 400;
+  text-transform: uppercase;
+  bottom: 0%;
+  -webkit-transform: translate3d(0%, -100%, 0);
+
+  transform: translate3d(0%, -100%, 0);
+}
+figure.visual h2 span {
+  font-weight: 400;
+}
+figure.visual p {
+  top: 0%;
+  padding: 0 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  -webkit-transform: translate3d(0%, 100%, 0);
+  transform: translate3d(0%, 100%, 0);
+}
+figure.visual a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+figure.visual:hover img,
+figure.visual.hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+figure.visual:hover figcaption h2,
+figure.visual.hover figcaption h2,
+figure.visual:hover figcaption p,
+figure.visual.hover figcaption p {
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+}
+figure.visual:hover figcaption h2,
+figure.visual.hover figcaption h2 {
+  opacity: 0.8;
+}
+figure.visual:hover figcaption p,
+figure.visual.hover figcaption p {
+  opacity: 0.6;
+}
+
+
+/* VISUALISATION BUTTONS!!! */
+
+
+
+
+/* VISUALISATION BUTTONS!!! */
+/* VISUALISATION BUTTONS!!! */
+/* VISUALISATION BUTTONS!!! */
+
+
+
+/*		I N D E X
+----------------------------------------------- */
+
+#pageindex {
+		margin: 10px 15px 30px 15px;
+}
+
+#pageindex table {
+		width: 100%;
+}
+
+#pageindex th {
+		font-weight: normal;
+		padding-bottom: 20px;
+}
+
+#pageindex th:hover {
+		color: #ff2a1b;
+		cursor: pointer;
+}
+
+#pageindex th, #pageindex td {
+		padding-right: 15px;
+}
+
+#pageindex .tt {
+		padding-right: 0;
+}
+
+#pageindex td span {
+		padding-right: 3px;
+}
+
+#pageindex .tn {
+		min-width: 80px;
+}
+
+#pageindex .ta, #pageindex .tl, #pageindex .td {
+		display: none;
+}
+
+#sorttable_sortrevind, #sorttable_sortfwdind {
+		font-family: "AOP Icons";
+}
+
+#pageindex tr:hover {
+		cursor: pointer;
+		color: #ff2a1b;
+}
+
+#pageindex #firstrow:hover {
+		cursor: inherit;
+		color: inherit;
+}
+
+
+/*		C O N T E N T
+----------------------------------------------- */
+
+#uptop {
+		float: right;
+}
+
+#pagetext {
+		background: #fefcfa;
+}
+
+#numbering {
+		float: right;
+		margin: 0 15px 0 15px;
+}
+
+#numbering span {
+		padding-right: 3px;
+}
+
+
+#team {
+	float: right;
+	margin: 0 15px 0 15px;
+	font-size: x-small;
+}
+
+#team span {
+	padding-right: 3px;
+}
+
+.entry h3 {
+		margin-bottom: 20px;
+}
+
+.entry figure {
+		margin-bottom: 9px;
+}
+
+.entry .video {
+		margin-bottom: 20px;
+}
+
+.entry figure a {
+		border-bottom: none !important;
+}
+
+.entry .text {
+		margin-bottom: 14px;
+}
+
+.entry p {
+		margin-bottom: 20px;
+}
+
+.entry .credits {
+		margin-top: 40px;
+		font-size: 80%;
+		line-height: 1.4;
+		letter-spacing: 0.05em;
+}
+
+figcaption {
+		font-size: 80%;
+		letter-spacing: 0.03em;
+		line-height: 1.35;
+		padding-bottom: 00px;
+}
+
+
+
+
+/*		A B O U T
+----------------------------------------------- */
+
+#pageabout section {
+		margin: 10px 15px 20px 15px;
+}
+
+#pageabout section .text {
+		border-top: 1px solid #111;
+		padding-top: 10px;
+		margin-top: 20px;
+		padding-bottom: 20px;
+}
+
+#pageabout section h1 {
+		margin-bottom: 20px;
+}
+
+#pageabout section .text:first-child {
+		border: none;
+		padding-top: 0;
+		margin-top: 0;
+}
+
+
+/*		R E S P O N S I V E
+----------------------------------------------- */
+@media screen and (min-width: 300px) {
+
+	.row {
+		display: block;
+		flex-wrap: wrap;
+		padding: 0 0px;
+		position: relative;
+		vertical-align: middle;
+		border: 10px; /*solid red;*/
+
+}
+
+
+@media screen and (min-width: 650px) {
+
+body {
+		font-size: 19px;
+		line-height: 25px;
+		letter-spacing: 0.01em;
+}
+
+header {
+		margin: 0 25px 10px 25px;
+		padding-top: 15px;
+}
+
+header nav li {
+		margin-right: 12px;
+}
+
+header form {
+		padding-top: 75px;
+}
+
+#intro {
+		margin: 0 25px 50px 25px;
+		font-size: 125%;
+		line-height: 1.25;
+		letter-spacing: 0.005em;
+}
+
+#main {
+		margin: 10px 25px 0 25px;
+		padding-bottom: 30px;
+}
+
+.overview {
+		text-align: center;
+}
+
+.overview a {
+		margin-bottom: 50px;
+		margin-left: 22px;
+		margin-right: 22px;
+		font-size: 80%;
+		line-height: 1.25;
+		letter-spacing: 0.02em;
+		width: 250px;
+		display: inline-block;
+		vertical-align: top;
+}
+
+
+/*all screens with min width 650 px e.g. iPAD*/
+.column {
+	flex: 40%;
+	max-width: 45%;
+	margin: 15px;
+	position: relative;
+	vertical-align: middle;
+  }
+
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 0px;
+	position: relative;
+	vertical-align: middle;
+	border: 10px; /*solid blue;*/
+	justify-content: center
+  }
+  
+
+
+}
+
+
+
+.overview div {
+		width: 250px;
+		height: 250px;
+		margin-bottom: 5px;
+}
+
+.overview em {
+		display: inline-block;
+		vertical-align: middle;
+		width: 0;
+		height: 250px;
+}
+
+.overview img {
+		display: inline-block;
+		vertical-align: middle;
+		max-height: 250px;
+		width: auto;
+}
+
+.overview strong {
+		top: 45%;
+		width: 100%;
+		font-size: 180%;
+		letter-spacing: 0.025em;
+}
+
+.vis {
+	text-align: center;
+}
+
+.vis a {
+	margin-bottom: 50px;
+	margin-left: 22px;
+	margin-right: 22px;
+	font-size: 80%;
+	line-height: 1.25;
+	letter-spacing: 0.02em;
+	width: 250px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+.vis div {
+	width: 250px;
+	height: 250px;
+	margin-bottom: 5px;
+}
+
+.vis em {
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 250px;
+}
+
+.vis img {
+	display: inline-block;
+	vertical-align: middle;
+	max-height: 250px;
+	width: auto;
+}
+
+.vis strong {
+	top: 45%;
+	width: 100%;
+	font-size: 180%;
+	letter-spacing: 0.025em;
+}
+
+
+#pagerandom #main a {
+		display: block;
+		margin-bottom: 25px;
+}
+
+#pagerandom img {
+		margin-left: 110px;
+		width: calc(100% - 110px);
+}
+
+#pageindex {
+		margin: 10px 25px 45px 25px;
+}
+
+#pageindex th {
+		padding-bottom: 25px;
+}
+
+#pageindex .tn {
+		min-width: 110px;
+}
+
+#pageindex .tt {
+		width: 50%;
+}
+
+#pageindex .td {
+		min-width: 110px;
+		display: table-cell;
+		padding-right: 0;
+		text-align: right;
+}
+
+#numbering {
+		float: right;
+		margin: 0 25px 0 25px;
+}
+
+#team {
+	float: right;
+	margin: 0 25px 0 25px;
+}
+
+.entry h3 {
+		margin-bottom: 25px;
+}
+
+.entry figure {
+		margin-bottom: 19px;
+}
+
+
+.entry .video {
+		margin-bottom: 25px;
+}
+
+.entry .text {
+		margin-bottom: 25px;
+}
+
+.entry p {
+		margin-bottom: 25px;
+}
+
+.entry .portrait {
+		width: 60%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+#pageabout section {
+		margin: 10px 25px 25px 25px;
+}
+
+#pageabout section h1 {
+		margin-bottom: 0;
+		float: left;
+}
+
+#pageabout section p {
+		margin-left: 110px;
+}
+
+}
+
+
+@media screen and (min-width: 940px) {
+
+#uptop {
+		float: none;
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 100%;
+		text-align: center;
+}
+
+#pageindex .tt {
+		width: 33%;
+		padding-right: 10px;
+}
+
+#pageindex .ta {
+		display: table-cell;
+		width: 33%;
+		padding-right: 10px;
+}
+
+#pageindex .tl {
+		display: table-cell;
+		width: 33%;
+}
+
+#pageindex table {
+		font-size: 80%;
+		letter-spacing: 0.03em;
+		line-height: 1.3;
+}
+
+#numbering {
+		float: left;
+		margin: 0 0 0 25px;
+}
+
+#team {
+	float: right;
+	margin: 0 0 0 25px;
+}
+.entry {
+		width: 60%;
+		margin-left: 20% !important;
+		margin-right: 20% !important;
+}
+
+#pageimage .text {
+		font-size: inherit;
+		line-height: inherit;
+		letter-spacing: inherit;
+		width: 75%;
+		padding-bottom: 5px;
+}
+
+figcaption {
+		max-width: 800px;
+		letter-spacing: 0.025em;
+}
+
+.fancybox-infobar__body {
+		font-size: 80%;
+		letter-spacing: 0.05em;
+}
+
+.entry .credits {
+		width: 60%;
+}
+
+#pageabout section p {
+		margin-left: 20% !important;
+		margin-right: 20% !important;
+}
+.column {
+	flex: 40%;
+	max-width: 45%;
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+body {
+		font-size: 23px;
+		line-height: 30px;
+		letter-spacing: 0.01em;
+		word-spacing: -0.025em;
+}
+
+small {
+		top: -1px;
+}
+
+header {
+		margin: 0 30px 10px 30px;
+		padding-top: 15px;
+}
+
+header nav li {
+		margin-right: 15px;
+}
+
+header form {
+		padding-top: 90px;
+}
+
+header #search {
+		font-size: 200%;
+		line-height: 1.25;
+		letter-spacing: -0.02em;
+		word-spacing: -0.03em;
+}
+
+#intro {
+		margin: 0 30px 60px 30px;
+		font-size: 200%;
+		line-height: 1.25;
+		letter-spacing: -0.02em;
+		word-spacing: -0.03em;
+}
+
+#main {
+		margin: 10px 5px 0 5px;
+		padding-bottom: 30px;
+}
+
+.overview a {
+		margin-bottom: 90px;
+		/*changed from 27px*/
+		margin-left: 10px;
+		margin-right: 10px;
+		/*changed from 325 px*/
+		width: 425px;
+}
+
+.overview div {
+	/*must equal width of .overview a*/
+		width: 425px;
+		height: 325px;
+		margin-bottom: 10px;
+}
+
+.overview em {
+		height: 325px;
+}
+
+.overview img {
+		max-height: 325px;
+}
+
+.overview strong {
+		top: 44%;
+		width: 100%;
+		font-size: 200%;
+		letter-spacing: 0.02em;
+}
+
+.vis a {
+	margin-bottom: 90px;
+	/*changed from 27px*/
+	margin-left: 5px;
+	margin-right: 5px;
+	/*changed from 325 px*/
+	width: 425px;
+	display: flex-start;
+}
+
+.vis div {
+/*must equal width of .overview a*/
+	width: 425px;
+	height: auto;
+	margin-bottom: 0px;
+	
+}
+
+.vis em {
+	height: 500px;
+}
+
+.vis img {
+	max-width: 525px;
+}
+
+.vis strong {
+	top: 44%;
+	width: 100%;
+	font-size: 200%;
+	letter-spacing: 0.02em;
+}
+
+
+#pagerandom #main a {
+		display: block;
+		margin-bottom: 30px;
+		margin-left: 25px;
+}
+
+#pagerandom img {
+		margin-left: 200px;
+		width: calc(100% - 225px);
+}
+
+#pageindex {
+		margin: 10px 30px 0 30px;
+}
+
+#pageindex .tn {
+		width: 12%;
+}
+
+#pageindex .ta {
+		width: 30%;
+}
+
+#pageindex .tt {
+		width: 30%;
+}
+
+#pageindex .tl {
+		width: 15%;
+}
+
+#pageindex .td {
+		width: 13%;
+		white-space: nowrap;
+}
+
+#numbering {
+		margin: 0 0 0 30px;
+}
+
+#team {
+	margin: 0 30px 0 0 ;
+}
+
+.entry {
+		width: 70%;
+		margin-left: 15% !important;
+		margin-right: 15% !important;
+}
+
+.entry h3 {
+		margin-bottom: 30px;
+}
+
+.entry figure {
+		margin-bottom: 24px;
+}
+
+.entry figure img {
+		width: 100%;
+}
+
+.entry .video {
+		margin-bottom: 30px;
+}
+
+.entry .text {
+		margin-bottom: 30px;
+}
+
+.entry p {
+		margin-bottom: 30px;
+}
+
+#pageimage .text {
+		max-width: 800px;
+		letter-spacing: 0.01em;
+}
+
+.credits {
+		max-width: 800px;
+		letter-spacing: 0.02em;
+}
+
+.credits {
+		padding-top: 30px;
+}
+
+#pagetext .entry, #pageabout section p {
+		width: 850px;
+		margin-left: auto !important;
+		margin-right: auto !important;
+}
+
+#pageabout .text {
+		margin-left: 5px;
+		margin-right: 5px;
+}
+
+
+.row {
+	display: inline-flex;
+	flex-wrap: wrap;
+	padding: 0 0px;
+	
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+	flex: 30%;
+	max-width: 30%;
+	padding: 0 0px;
+  }
+  
+  .column img {
+	margin-top: 5px;
+	vertical-align: middle;
+  }
+
+}
+
+
+
+/*e.g. ipad PRO or comp screen*/
+@media screen and (min-width: 1850px) {
+
+#pageindex table {
+		font-size: 23px;
+		line-height: 30px;
+		letter-spacing: 0.0175em;
+		word-spacing: -0.05em;
+}
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+body {
+		color: #f2f2f2;
+		background: #222;
+}
+
+a:link, a:visited {
+		color: #f2f2f2;
+}
+
+a:hover, a:active {
+		color: #ff2a1b;
+}
+
+header, header .active {
+		border-bottom: 1px solid #f2f2f2;
+}
+
+header #search {
+		color: #f2f2f2;
+		background: #222;
+}
+
+#intro a:link, #intro a:visited, .entry a:link, .entry a:visited, .text a:link, .text a:visited {
+		border-bottom: 1px dotted #f2f2f2;
+}
+
+#pagetext {
+		background: #222;
+}
+
+#pageabout section .text {
+		border-top: 1px solid #f2f2f2;
+}
+
+.fancybox-bg {
+		background-color: #222 !important;
+}
+
+.fancybox-button {
+		color: #f2f2f2 !important;
+}
+
+.fancybox-button:hover {
+		color: #ff2a1b !important;
+}
+
+.rsDefault .rsBullet span {
+	background: #f2f2f2 !important;
+}
+
+.rsDefault .rsBullet span:hover {
+	background: #ff2a1b !important;
+}
+
+.rsDefault .rsBullet.rsNavSelected span {
+	background-color: #ff2a1b !important;
+}
+
+}
