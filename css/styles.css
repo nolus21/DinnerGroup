@@ -862,6 +862,7 @@ header form {
 		width: 250px;
 		height: 250px;
 		margin-bottom: 5px;
+		margin:auto;
 }
 
 .overview em {
