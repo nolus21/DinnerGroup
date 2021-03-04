@@ -175,24 +175,24 @@
 
 
     
-<script src="./projects\academia\contested_territories\js\contested-territories-3d.js">
+<script src="./projects/academia/contested_territories/js/contested-territories-3d.js">
 </script>
 
 
 
-        <?php include './projects\architecture\uwdziedziniec\uwdziedziniec.php';?>
-        <?php include './projects\spatialstrategies\aleppo\aleppo1.php';?>
-        <?php include './projects\architecture\wyspianski\wyspianski.php';?>
-        <?php include './projects\research\shenzen\shenzen.php';?>
+        <?php include './projects/architecture/uwdziedziniec/uwdziedziniec.php';?>
+        <?php include './projects/spatialstrategies/aleppo/aleppo1.php';?>
+        <?php include './projects/architecture/wyspianski/wyspianski.php';?>
+        <?php include './projects/research/shenzen/shenzen.php';?>
         <?php include './projects/architecture/smichov/smichov.php';?>
         <?php include './projects/architecture/kladkapoznan/kladkapoznan.php';?>
-        <?php include './projects\architecture\skylense\skylense.php';?>
-        <?php include './projects\architecture\opole\opole.php';?>
-        <?php include './projects\spatialstrategies\forest\forest.php';?>
-        <?php include './projects\spatialstrategies\coast\coast.php';?>
-        <?php include './projects\spatialstrategies\aleppo\aleppo_pub.php';?>
-        <?php include './projects\art\art1.php';?>
-        <?php include './projects\research\smartcity\smart_city1.php';?>
+        <?php include './projects/architecture/skylense/skylense.php';?>
+        <?php include './projects/architecture/opole/opole.php';?>
+        <?php include './projects/spatialstrategies/forest/forest.php';?>
+        <?php include './projects/spatialstrategies/coast/coast.php';?>
+        <?php include './projects/spatialstrategies/aleppo/aleppo_pub.php';?>
+        <?php include './projects/art/art1.php';?>
+        <?php include './projects/research/smartcity/smart_city1.php';?>
 
 
 </section>
