@@ -180,9 +180,8 @@
 
 
 
-
-        <?php include 'projects\architecture\uwdziedziniec\index.php';?>
-        <?php include 'projects\spatialstrategies\aleppo\aleppo1.php';?>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . 'projects\architecture\uwdziedziniec\uwdziedziniec.php')?>
+        <?php include($_SERVER['HTTP_HOST'] . 'projects\spatialstrategies\aleppo\aleppo1.php')?>
         <?php include 'projects\architecture\wyspianski\wyspianski.php';?>
         <?php include 'projects\research\shenzen\shenzen.php';?>
  
