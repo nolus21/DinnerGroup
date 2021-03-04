@@ -1,0 +1,822 @@
+/*
+-----------------------------------------------
+		www.atlasofplaces.com
+	 by www.lichtsignale.de
+----------------------------------------------- */
+
+
+/*		R E S E T
+----------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+		margin: 0;
+	    padding: 0;
+	    border: 0;
+	    outline: 0;
+	    font-size: 100%;
+	    vertical-align: baseline;
+	    background: transparent;
+	    font-variant-ligatures: none;
+}
+
+html {
+		height: 100%;
+		-ms-text-size-adjust: none;
+		-webkit-text-size-adjust: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { 
+	    display: block;
+}
+
+blockquote, q {
+	    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	    content: "";
+	    content: none;
+}
+
+a {
+	    margin: 0;
+	    padding: 0;
+	    font-size: 100%;
+	    vertical-align: baseline;
+	    background: transparent;
+}
+
+table {
+	    border-collapse: collapse;
+	    border-spacing: 0;
+}
+
+input, select {
+	    vertical-align: middle;
+}
+
+
+/*		W E B F O N T S
+----------------------------------------------- */
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3697886, 2019-01-14T13:13:02-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: UniversNextPro-Regular by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers-next/pro-430-basic-regular/
+ * Copyright: Copyright &#x00A9; 2010 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Univers is a trademark of Linotype Corp. regi
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3697886
+ * 
+ * Â© 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/386cde");
+
+  
+@font-face {
+		font-family: "AOP Univers";
+		src: url('fonts/386CDE_0_0.eot');
+		src: url('fonts/386CDE_0_0.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/386CDE_0_0.woff2') format('woff2'),
+			 url('fonts/386CDE_0_0.woff') format('woff'),
+			 url('fonts/386CDE_0_0.ttf') format('truetype'),
+			 url('fonts/386CDE_0_0.svg#wf') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=e289e088-cf0e-4e6b-a44a-7f04c1359c94&fontids=777517,777529");
+
+@font-face{
+		font-family: "AOP Univers";
+		src: url("fonts/c7c85fe0-8d8c-47b2-9c0c-418c64aad350.eot?#iefix");
+		src: url("fonts/c7c85fe0-8d8c-47b2-9c0c-418c64aad350.eot?#iefix") format("eot"),
+			 url("fonts/c286361c-8fad-42e9-a699-52cf25e755ae.woff2") format("woff2"),
+			 url("fonts/e1560e38-2ee2-4502-8c26-3a8c9013b031.woff") format("woff"),
+			 url("fonts/d566a595-2a5d-44ff-a633-4afdcccd528b.ttf") format("truetype");
+		font-weight: normal;
+		font-style: italic;
+}
+
+@font-face{
+		font-family: "AOP Univers";
+		src: url("fonts/3d4372d2-fbf8-4376-887c-a4247fe7475f.eot?#iefix");
+		src: url("fonts/3d4372d2-fbf8-4376-887c-a4247fe7475f.eot?#iefix") format("eot"),
+			 url("fonts/086dc2f3-0872-4cae-aa0f-f66b64139049.woff2") format("woff2"),
+			 url("fonts/5726bf63-b50c-4eb5-8615-36daaa1b3f99.woff") format("woff"),
+			 url("fonts/f4f44dd1-4235-4aaf-86d0-2b58f230cdaf.ttf") format("truetype");
+		font-weight: bold;
+		font-style: normal;
+}
+
+@font-face {
+	    font-family: 'AOP Icons';
+	    src: url('fonts/aop_icons.eot');
+	    src: url('fonts/aop_icons.eot?#iefix') format('embedded-opentype'),
+	         url('fonts/aop_icons.woff') format('woff'),
+	         url('fonts/aop_icons.ttf') format('truetype');
+	    font-weight: normal;
+	    font-style: normal;
+}
+
+
+/*		B A S I C S
+----------------------------------------------- */
+
+body {
+		color: #000;
+		background: #fff;
+		font-family: "AOP Univers", "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;
+		font-size: 10pt;
+		line-height: 1.6;
+		letter-spacing: 0.015em;
+		text-align: left;
+		margin: 1.5em 10em 3em 3em; 
+		text-align: left;
+}
+
+h1, h2, h3, strong, b {
+		font-weight: normal;
+		font-style: normal;
+}
+
+em, i {
+		font-weight: normal;
+		font-style: italic;
+}
+
+input:focus {
+		outline: none;
+}
+
+a:link, a:visited {
+		color: #000;
+		text-decoration: none;
+}
+
+a:after {
+		content: " (" attr(href) ") ";
+		font-size: 75%;
+}
+
+a:hover, a:active {
+		color: #ff2a1b;
+}
+
+small {
+		font-size: 80%;
+		letter-spacing: 0.07em;
+		position: relative;
+		top: -2px;
+}
+
+
+/*		H E A D E R
+----------------------------------------------- */
+
+header {
+		display: none;
+}
+
+
+/*		M A I N
+----------------------------------------------- */
+
+#intro {
+		margin: 0 15px 40px 15px;
+		font-size: 125%;
+		line-height: 1.25;
+		letter-spacing: 0.015em;
+}
+
+#intro h1 {
+		display: inline;
+}
+
+#intro a:link, #intro a:visited, .entry a:link, .entry a:visited, .text a:link, .text a:visited {
+		border-bottom: 1px dotted #000;
+}
+
+#main {
+		margin: 10px 15px 0 15px;
+		padding-bottom: 25px;
+}
+
+#main img {
+		max-width: 100%;
+		height: auto;
+}
+
+
+/*		O V E R V I E W
+----------------------------------------------- */
+
+.overview a {
+		display: block;
+		margin-bottom: 20px;
+}
+
+.overview div {
+		position: relative;
+}
+
+.overview img {
+		width: 100%;
+}
+
+.overview strong {
+		position: absolute;
+		left: 0;
+		top: 46%;
+		width: 100%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 200%;
+		font-size: 10vw;
+		line-height: 1;
+		letter-spacing: 0.035em;
+		font-weight: bold;
+}
+
+.overview span {
+		display: inline-block;
+		line-height: 1.1;
+}
+
+#pagerandom #main a {
+		display: block;
+		margin-bottom: 14px;
+}
+
+#pagerandom div {
+		display: block;
+		float: left;
+		position: relative;
+		top: -3px;
+}
+
+#pagerandom span {
+		padding-right: 3px;
+}
+
+#pagerandom img {
+		margin-left: 80px;
+		width: 60%;
+		width: calc(100% - 80px);
+		display: block;
+}
+
+
+/*		I N D E X
+----------------------------------------------- */
+
+#pageindex {
+		margin: 10px 15px 30px 15px;
+}
+
+#pageindex table {
+		width: 100%;
+}
+
+#pageindex th {
+		font-weight: normal;
+		padding-bottom: 20px;
+}
+
+#pageindex th:hover {
+		color: #ff2a1b;
+		cursor: pointer;
+}
+
+#pageindex th, #pageindex td {
+		padding-right: 15px;
+}
+
+#pageindex .tt {
+		padding-right: 0;
+}
+
+#pageindex td span {
+		padding-right: 3px;
+}
+
+#pageindex .tn {
+		min-width: 80px;
+}
+
+#pageindex .ta, #pageindex .tl, #pageindex .td {
+		display: none;
+}
+
+#sorttable_sortrevind, #sorttable_sortfwdind {
+		font-family: "AOP Icons";
+}
+
+#pageindex tr:hover {
+		cursor: pointer;
+		color: #ff2a1b;
+}
+
+#pageindex #firstrow:hover {
+		cursor: inherit;
+		color: inherit;
+}
+
+
+/*		C O N T E N T
+----------------------------------------------- */
+
+#pagetext {
+		background: #fff;
+}
+
+#numbering {
+		float: right;
+		margin: 0 15px 0 15px;
+}
+
+#numbering span {
+		padding-right: 3px;
+}
+
+.entry h3 {
+		margin-bottom: 20px;
+}
+
+.entry figure {
+		margin-bottom: 9px;
+}
+
+.entry .video {
+		margin-bottom: 20px;
+}
+
+.entry figure a {
+		border-bottom: none !important;
+}
+
+.entry .text {
+		margin-bottom: 14px;
+}
+
+.entry p {
+		margin-bottom: 20px;
+}
+
+.entry .credits {
+		margin-top: 40px;
+		font-size: 80%;
+		line-height: 1.4;
+		letter-spacing: 0.07em;
+}
+
+figcaption {
+		font-size: 80%;
+		letter-spacing: 0.05em;
+		line-height: 1.35;
+		padding-bottom: 20px;
+}
+
+
+/*		A B O U T
+----------------------------------------------- */
+
+#pageabout section {
+		margin: 10px 15px 20px 15px;
+}
+
+#pageabout section .text {
+		border-top: 1px solid #111;
+		padding-top: 10px;
+		margin-top: 20px;
+		padding-bottom: 20px;
+}
+
+#pageabout section h1 {
+		margin-bottom: 20px;
+}
+
+#pageabout section .text:first-child {
+		border: none;
+		padding-top: 0;
+		margin-top: 0;
+}
+
+
+/*		R E S P O N S I V E
+----------------------------------------------- */
+
+@media screen and (min-width: 650px) {
+
+body {
+		font-size: 19px;
+		line-height: 25px;
+		letter-spacing: 0.03em;
+}
+
+header {
+		margin: 15px 25px 10px 25px;
+}
+
+header nav li {
+		margin-right: 12px;
+}
+
+header form {
+		padding-top: 75px;
+}
+
+#intro {
+		margin: 0 25px 50px 25px;
+		font-size: 125%;
+		line-height: 1.25;
+		letter-spacing: 0.01em;
+}
+
+#main {
+		margin: 10px 25px 0 25px;
+		padding-bottom: 30px;
+}
+
+.overview {
+		text-align: center;
+}
+
+.overview a {
+		margin-bottom: 50px;
+		margin-left: 22px;
+		margin-right: 22px;
+		font-size: 80%;
+		line-height: 1.25;
+		letter-spacing: 0.05em;
+		width: 250px;
+		display: inline-block;
+}
+
+.overview div {
+		width: 250px;
+		height: 250px;
+		margin-bottom: 5px;
+}
+
+.overview em {
+		display: inline-block;
+		vertical-align: middle;
+		width: 0;
+		height: 250px;
+}
+
+.overview img {
+		display: inline-block;
+		vertical-align: middle;
+		max-height: 250px;
+		width: auto;
+}
+
+.overview strong {
+		top: 45%;
+		width: 100%;
+		font-size: 180%;
+		letter-spacing: 0.035em;
+}
+
+#pagerandom #main a {
+		display: block;
+		margin-bottom: 25px;
+}
+
+#pagerandom img {
+		margin-left: 110px;
+		width: calc(100% - 110px);
+}
+
+#pageindex {
+		margin: 10px 25px 45px 25px;
+}
+
+#pageindex th {
+		padding-bottom: 25px;
+}
+
+#pageindex .tn {
+		min-width: 110px;
+}
+
+#pageindex .tt {
+		width: 50%;
+}
+
+#pageindex .tl {
+		display: table-cell;
+		width: 50%;
+}
+
+#pageindex .td {
+		min-width: 110px;
+		display: table-cell;
+		padding-right: 0;
+		text-align: right;
+}
+
+#numbering {
+		float: right;
+		margin: 0 25px 0 25px;
+}
+
+.entry h3 {
+		margin-bottom: 25px;
+}
+
+.entry figure {
+		margin-bottom: 19px;
+}
+
+
+.entry .video {
+		margin-bottom: 25px;
+}
+
+.entry .text {
+		margin-bottom: 25px;
+}
+
+.entry p {
+		margin-bottom: 25px;
+}
+
+.entry .portrait {
+		width: 60%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+#pageabout section {
+		margin: 10px 25px 25px 25px;
+}
+
+#pageabout section h1 {
+		margin-bottom: 0;
+		float: left;
+}
+
+#pageabout section p {
+		margin-left: 110px;
+}
+
+}
+
+
+@media screen and (min-width: 940px) {
+
+#pageindex .tt {
+		width: 33%;
+		padding-right: 10px;
+}
+
+#pageindex .ta {
+		display: table-cell;
+		width: 33%;
+		padding-right: 10px;
+}
+
+#pageindex .tl {
+		display: table-cell;
+		width: 33%;
+}
+
+#numbering {
+		float: left;
+		margin: 0 0 0 25px;
+}
+
+.entry {
+		width: 60%;
+		margin-left: 20% !important;
+		margin-right: 20% !important;
+}
+
+#pageimage .text {
+		font-size: inherit;
+		line-height: inherit;
+		letter-spacing: inherit;
+		width: 75%;
+		padding-bottom: 5px;
+}
+
+figcaption {
+		max-width: 800px;
+		letter-spacing: 0.035em;
+}
+
+.fancybox-infobar__body {
+		font-size: 80%;
+		letter-spacing: 0.07em;
+}
+
+.entry .credits {
+		width: 60%;
+}
+
+#pageabout section p {
+		margin-left: 20% !important;
+		margin-right: 20% !important;
+}
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+body {
+		font-size: 23px;
+		line-height: 30px;
+		letter-spacing: 0.0175em;
+}
+
+small {
+		top: -1px;
+}
+
+header {
+		margin: 15px 30px 10px 30px;
+}
+
+header nav li {
+		margin-right: 15px;
+}
+
+header form {
+		padding-top: 90px;
+}
+
+header #search {
+		font-size: 200%;
+		line-height: 1.25;
+		letter-spacing: -0.02em;
+		word-spacing: -0.03em;
+}
+
+#intro {
+		margin: 0 30px 60px 30px;
+		font-size: 200%;
+		line-height: 1.25;
+		letter-spacing: -0.02em;
+		word-spacing: -0.03em;
+}
+
+#main {
+		margin: 10px 5px 0 5px;
+		padding-bottom: 30px;
+}
+
+.overview a {
+		margin-bottom: 90px;
+		margin-left: 27px;
+		margin-right: 27px;
+		width: 325px;
+}
+
+.overview div {
+		width: 325px;
+		height: 325px;
+		margin-bottom: 10px;
+}
+
+.overview em {
+		height: 325px;
+}
+
+.overview img {
+		max-height: 325px;
+}
+
+.overview strong {
+		top: 44%;
+		width: 100%;
+		font-size: 200%;
+		letter-spacing: 0.04em;
+}
+
+#pagerandom #main a {
+		display: block;
+		margin-bottom: 30px;
+		margin-left: 25px;
+}
+
+#pagerandom img {
+		margin-left: 200px;
+		width: calc(100% - 225px);
+}
+
+#pageindex {
+		margin: 10px 30px 0 30px;
+}
+
+#pageindex .tn {
+		width: 12%;
+}
+
+#pageindex .ta {
+		width: 30%;
+}
+
+#pageindex .tt {
+		width: 30%;
+}
+
+#pageindex .tl {
+		width: 15%;
+}
+
+#pageindex .td {
+		width: 13%;
+		white-space: nowrap;
+}
+
+#numbering {
+		margin: 0 0 0 30px;
+}
+
+.entry {
+		width: 70%;
+		margin-left: 15% !important;
+		margin-right: 15% !important;
+}
+
+.entry h3 {
+		margin-bottom: 30px;
+}
+
+.entry figure {
+		margin-bottom: 24px;
+}
+
+.entry figure img {
+		width: 100%;
+}
+
+.entry .video {
+		margin-bottom: 30px;
+}
+
+.entry .text {
+		margin-bottom: 30px;
+}
+
+.entry p {
+		margin-bottom: 30px;
+}
+
+#pageimage .text {
+		max-width: 800px;
+		letter-spacing: 0.02em;
+}
+
+.credits {
+		max-width: 800px;
+		letter-spacing: 0.03em;
+}
+
+.credits {
+		padding-top: 30px;
+}
+
+#pagetext .entry, #pageabout section p {
+		width: 850px;
+		margin-left: auto !important;
+		margin-right: auto !important;
+}
+
+#pageabout .text {
+		margin-left: 5px;
+		margin-right: 5px;
+}
+
+}

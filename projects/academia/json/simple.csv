@@ -1,0 +1,11 @@
+﻿nodes__id;nodes__name;links__source;links__target
+1;Architecture;1;2
+2;Academia;1;5
+3;Research;1;6
+4;Spatial Strategies;2;3
+5;Art;2;7
+6;Cinema;3;4
+7;Essays;8;3
+8;Design;4;5
+9;Visualisation;4;9
+10;Mapping;5;10
