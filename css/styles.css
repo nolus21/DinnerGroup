@@ -36,22 +36,8 @@ html {
 		-webkit-text-size-adjust: none;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section { 
-	    display: block;
-}
 
 
-
-blockquote, q {
-	    quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-	    content: "";
-	    content: none;
-}
 
 a {
 	    margin: 0;
@@ -61,10 +47,7 @@ a {
 	    background: transparent;
 }
 
-table {
-	    border-collapse: collapse;
-	    border-spacing: 0;
-}
+
 
 input, select {
 	    vertical-align: middle;
@@ -154,7 +137,7 @@ body {
 		color: #111;
 		background: #fff;
 		font-family: Georgia, 'Times New Roman', Times, serif; /*"AOP Univers", "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;*/
-		font-size: 15px;
+		font-size: 1rem;
 		line-height: 20px;
 		letter-spacing: 0.02em;
 		word-spacing: -0.025em;
@@ -190,9 +173,7 @@ a:hover, a:active {
 
 
 img * {
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	-webkit-transition: all 0.6s ease;
 	transition: all 0.6s ease;
 }
 
@@ -203,7 +184,7 @@ img * {
 	-webkit-transition: opacity 0.35s;
   	transition: opacity 5s;*/
 
-}
+/*}*/
 
 small {
 		font-size: 80%;
@@ -256,8 +237,6 @@ header #search {
 		width: 100%;
 		font: inherit;
 		opacity: 0;
-		-webkit-transition: all 0.5s;
-		-moz-transition: all 0.5s;
 		transition: all 0.5s;
 		cursor: default;
 		font-size: 125%;
@@ -267,8 +246,6 @@ header #search {
 
 header #search:focus {
 		opacity: 1;
-		-webkit-transition: all 0.25s;
-		-moz-transition: all 0.25s;
 		transition: all 0.25s;
 		background: transparent;
 }
@@ -313,16 +290,12 @@ header .pagesearch {
 		border-bottom: 1px dotted #111;
 }
 
-#main {
+#main, #vis {
 		margin: 10px 15px 0 15px;
 		padding-bottom: 25px;
 }
 
 
-#vis {
-	margin: 10px 15px 0 15px;
-	padding-bottom: 25px;
-}
 
 #main img {
 		max-width: 100%;
@@ -741,7 +714,29 @@ figcaption {
 }
 
 
+/* landing section */
 
+#landing {
+	
+	height: 600px;
+	background-color: rgb(0, 0, 0);
+	margin:0 0 5%;
+}
+
+#intro-video-container {
+	position: relative;
+	overflow: hidden;
+	width:100%;
+	height: 100%;
+	
+	
+}
+
+#intro-video {
+	position: absolute;
+	top:  -240px;
+	right:0px
+}
 
 /*		A B O U T
 ----------------------------------------------- */

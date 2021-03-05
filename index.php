@@ -34,6 +34,8 @@
     rel="stylesheet" />
   <!--fonts-->
 
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!--bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
@@ -71,9 +73,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>-->
 
 
 
@@ -145,7 +147,7 @@
 
 
 
-<section id="main" class="overview">
+
     
   
  
@@ -160,12 +162,28 @@
     </a>
 -->
 
+<section id="landing">
 
-        
+
+
+
+
+<div id="intro-video-container">
+<video id="intro-video" controls autoplay muted>
+  <source src="projects/architecture/skylense/video/skylense-intro.mp4" type="video/mp4">
+  </video>
+
+</div>
+
+
+</section>
+
+
+<section id="main" class="overview">       
     <a >
         <div class="threejs-canvas" id="contested-territories">
-        <canvas id="my_canvas" style ></canvas>
-   
+        <canvas id="my_canvas" ></canvas>
+        
             
 
         </div>
@@ -200,6 +218,16 @@
 <script>
 if (lazyLoadInstance) {lazyLoadInstance.update();}
 </script>
+
+
+
+<!--https://github.com/michalsnik/aos-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
 
 </body>
 </html>

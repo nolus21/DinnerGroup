@@ -15,7 +15,7 @@ echo "
 </style>
 
 
-<a style='width:50%; height: auto;' href='projects\spatialstrategies\aleppo'>
+<a  href='projects\spatialstrategies\aleppo'> <!--style='width:50%; height: auto;'-->
 <div>
 <p class='aleppo_x'>Map</p>
 <img class='lazy' data-src='projects\spatialstrategies\aleppo\gif/1-25000_buildup.gif' alt='Aleppo'>
