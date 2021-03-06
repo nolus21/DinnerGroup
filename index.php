@@ -37,8 +37,8 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!--bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />-->
 
   <!--styles-->
   <link rel="stylesheet" href="../styles/style.css" />
@@ -73,9 +73,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>-->
+    crossorigin="anonymous"></script>
 
 
 
@@ -162,18 +162,30 @@
     </a>
 -->
 
+
+
+
+
+
 <section id="landing">
 
+  <div class="landing-text">
+      <p id="text">The dinner.group is not so much a 'company' in a traditional sense, but a 
+        method of making decisions and generating ideas that lead to meaningful results.</p>
+  </div>
 
 
 
 
-<div id="intro-video-container">
-<video id="intro-video" controls autoplay muted>
-  <source src="projects/architecture/skylense/video/skylense-intro.mp4" type="video/mp4">
-  </video>
 
-</div>
+  <div id="intro-video-container">
+    <div id="trimming-container">
+      <video id="intro-video" controls autoplay muted>
+        <source src="projects/architecture/skylense/video/skylense-intro.mp4" type="video/mp4">
+        </video>
+    </div>
+
+  </div>
 
 
 </section>
@@ -192,9 +204,14 @@
     </a>  
 
 
-    
+<!--scripts-->
 <script src="./projects/academia/contested_territories/js/contested-territories-3d.js">
 </script>
+
+<script src="./js/smooth-fade-in-01.js">
+</script>
+
+
 
 
 
