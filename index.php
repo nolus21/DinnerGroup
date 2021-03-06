@@ -8,13 +8,13 @@
     <!--finish description!!!!!-->
     <meta name="description" content="Dinner Group is a collective of people working across..." />
     <title>Dinner Group</title>
-    <link rel="stylesheet" href="/css/styles.css" media="screen">
-    <link rel="stylesheet" href="/css/stylesprint.css" media="print">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <script src="/js/jquery.js"></script>
-    <script src="/js/functions.search.js"></script>
-    <script src="/js/lazyload.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" media="screen">
+    <link rel="stylesheet" href="./css/stylesprint.css" media="print">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/functions.search.js"></script>
+    <script src="./js/lazyload.js"></script>
 
 
 
