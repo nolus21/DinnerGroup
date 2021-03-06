@@ -199,15 +199,16 @@
             
 
         </div>
-            <span href='projects\architecture\kladkapoznan\'><small>Infrastructure</small><br>
+            <span href='./projects/architecture/kladkapoznan/'><small>Infrastructure</small><br>
             Pedestrian and cycling bridge</span>
     </a>  
 
 
 <!--scripts-->
+<!--threejs-->
 <script src="./projects/academia/contested_territories/js/contested-territories-3d.js">
 </script>
-
+<!--fade in text-->
 <script src="./js/smooth-fade-in-01.js">
 </script>
 
