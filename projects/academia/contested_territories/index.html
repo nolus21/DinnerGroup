@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!--change title!!!-->
+    <title>Contested Terrtories (056) — Research / Academia / Dinner Group</title>
+    <!--change title!!!-->
+    <link rel="stylesheet" href="/css/styles.css" media="screen">
+    <link rel="stylesheet" href="/css/stylesprint.css" media="print">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/css/fancybox.css">
+    <link rel="stylesheet" href="/css/royalslider-default.css">
+    <link rel="stylesheet" href="/css/royalslider.css">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/fancybox.js"></script>
+    <script src="/js/royalslider.js"></script>
+    <script src="/js/fitvid.js"></script>
+    <script src="/js/functions.royalslider.js"></script>
+    <script src="/js/functions.search.js"></script>
+    <script src="/js/lazyload.js"></script>
+    <script src="//unpkg.com/3d-force-graph"></script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+    <script src="//unpkg.com/three"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/three@0.112.0/examples/js/loaders/OBJLoader.js"></script>
+    <script src="https://unpkg.com/three@0.112.0/examples/js/loaders/MTLLoader.js"></script>
+    <script src="https://unpkg.com/three@0.112.0/examples/js/loaders/MTLLoader.js"></script>
+    <script src="https://unpkg.com/three@0.112.1/examples/js/loaders/DDSLoader.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+    <script src="https://unpkg.com/three@0.112.0/examples/js/loaders/GLTFLoader.js"></script>
+    <!--<script src="https://unpkg.com/three@0.99.0/examples/js/postprocessing/UnrealBloomPass.js"></script>-->
+
+
+    <script>
+        var lazyLoadInstance = new LazyLoad({
+            elements_selector: ".lazy",
+            threshold: 1000
+        });
+    </script>
+
+
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+</head>
+
+<body class="black" id="pageimage">
+
+    <header id="top">
+        <nav>
+            <ul>
+                <li class="active"><a href="/">Space</a></li>
+                <li><a href="/index/">Database</a></li>
+                <li id="searchlink">Search</li>
+            </ul>
+        </nav>
+
+        <div id="about">
+            <a href="/about/">About</a>
+        </div>
+
+        <!--cchange!!! what is that????? -->
+        <form method="post" action="https://www.atlasofplaces.com/">
+            <div class='hiddenFields'>
+                <input type="hidden" name="ACT" value="24" />
+                <input type="hidden" name="RES" value="" />
+                <input type="hidden" name="meta"
+                    value="/XGdzJvxy8Z0D/0wuiWwbrub6glh/Ee8bEKD0QVy6yPDH/BreJix6go2TjtoDT/8XS9mSuqIADjmagFkKkK1AHP5faHGiw0ZWnF5sTi7vd5qk+zxQxXCX2U/4fuo9qWhuqsBbZYR7aEKbXiuMW46f2ShGzkyM921P194jOba6ORJgy1yAp/ktQdDwREmWPdyKKxWVwnepKQM5wHR/cB7baYSB2ebcsPHty5qJngZ9tlg+0ISGVzrJqg6cxE5XY5qPlLsXb6HRFPb4F42Blr+j4RyB+0+nNO1j4S7791gp88AEOYRqO2RXyTB1y5ru0QQA2yOj+RNZwuQ3p3BVgeoouo3pAF41oe89DW3NMcQb9NfffYhPX59AGlKcBNNy1jifKiV6rBqaeyAb5Q8MIrYPtbKIrdRBdkMRDQaJSAWVwd2cFIJbcx2XhwbkEEwx0tv" />
+                <input type="hidden" name="site_id" value="1" />
+                <input type="hidden" name="csrf_token" value="0d54e0ef5582d02a78514004f1fb6a952852bc4f" />
+            </div>
+            <!--cchange!!!-->
+
+
+            <input type="text" autocomplete="off" placeholder="Type and press enter to search" name="keywords"
+                id="search" value="">
+        </form>
+    </header>
+
+    <!--change numbering!!!-->
+    <div id="numbering">
+        <span>012</span>
+    </div>
+
+    <!--
+<div id="team" style="line-height:120%;">
+<span style="font-weight: bold">
+    <p>Team:</p>
+</span>
+<span>Fran Alvarez <br>
+Lili Szabo<br>
+Aleksander Nowak<br>
+Taras Baran<br>
+Anthony Juste<br>
+Anna Stempniewicz<br>
+Agnieszka Filipowicz<br>
+
+
+</span></p>
+</div> 
+-->
+
+
+
+    <section id="main" class="entry">
+
+        <!-- Draggable DIV -->
+
+        <div class="draggable" style="width: 500px;
+                height:500px; top:1500px; left:1100px;">
+
+
+            <video class="videoInsert" id="crop-graph" controls autoplay muted>
+                <source src="./video/Bar Graph Crops-1.mp4" type="video/mp4">
+            </video>
+
+            <p class="guideline">drag / double-click to enlarge <br>Winter wheat and spring barley constitute the
+                largest proportion of the vast
+                monospecies Danish landscape</p>
+            <p class="caption"></p>
+        </div>
+
+
+
+        <!--
+        
+
+
+
+        <div class="draggable" style="width: 500px;
+                height:300px; top:352px; left:1100px;">
+
+
+
+        </div>
+
+        <div class="draggable" style="width: 500px;
+            height:300px; top:352px; left:1100px;">
+
+            <figure>
+                <img src="./jpg/danish_crown_2.jpg" alt="Wohnatelierhaus altes Weinlager">
+            </figure>
+            <p class="caption">Danish Crown slaughterhouse at Horsens. Photo: Henning Bagger, Retrieved from:
+                bt.dk/erhverv/storstrejke-lammer-dansk-virksomhed, 2020</p>
+
+        </div>
+
+        <div class="draggable" style="width: 500px;
+        height:300px; top:352px; left:1100px;">
+
+         
+
+        </div>
+
+        <div class="draggable" style="width: 500px;
+         height:300px; top:352px; left:1100px;">
+
+
+
+            <figure>
+                <img src="./jpg/danish_crown_3.jpg" alt="Wohnatelierhaus altes Weinlager">
+            </figure>
+            <p class="caption">Danish Crown slaughterhouse in Holsted, Retrieved from:
+                ramboll.com/projects/rdk/danish-crown-in-holsted-new-slaughterhouse, 2020</p>
+
+        </div>
+
+        <div class="draggable" style="width: 500px;
+        height:300px; top:352px; left:1100px;">
+
+
+
+           <figure>
+               <img src="./jpg/Danskvolkeparti-Julekampagne.jpg" alt="Wohnatelierhaus altes Weinlager">
+           </figure>
+           <p class="caption">Danish People Party poster, Retrieved from:
+            danskfolkeparti.dk/politik/kampagner/
+            , 2020</p>
+
+       </div>
+
+       <div class="draggable" style="width: 500px;
+       height:300px; top:352px; left:1100px;">
+
+
+
+          <figure>
+              <img src="./jpg/redane1.jpg" alt="Wohnatelierhaus altes Weinlager">
+          </figure>
+          <p class="caption">Danish landscape - clip from "Redane", Retrieved from:
+            vimeo.com/82118155
+           , 2020</p>
+
+      </div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+        <h1>Contested Territories</h1>
+        <h3 style="color: tomato"> Actor-Network / Terriorial Mapping of the Danish Pig Industry
+        </h3>
+
+
+
+        </p>
+
+        <div class="text">
+            <div class="row">
+                <div class="col-lg-auto ">
+
+
+                    <hr class="solid">
+                    <p style="color: rgb(163, 163, 163)">Institution: Royal Danish Academy – Architecture, Design,
+                        Conservation
+                        -
+                        <br> IBBL - Urbanism and Societal Change
+                    </p>
+
+                    <p style="color: rgb(163, 163, 163); font-size:0.8rem;">
+
+                        Project owners: Aleksander Nowak, Deane Simpson (KADK)
+                        <br>Collaborators: Albena Yaneva (University of Manchester), Tommaso Venturini (SciencesPo),
+                        <br>Joost
+                        Grootens (Design Academy Eindhoven),
+                        Linnea Freij (KADK), Serina Kitazono (KADK)
+                        <hr class="solid">
+                        <!--  <div class="row" id="stretch-row">-->
+
+                </div>
+
+                <div class="col-lg-3" style="margin-top: 1rem">
+                    <img src="../svg/Det_Kongelige_Akademi_Sort_Logo_CMYK_1_UK-01.svg">
+
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+
+                    <div class="center-to-div">
+
+                        <img src="./jpg/danish_landscape.jpg" alt="Wohnatelierhaus altes Weinlager">
+                        <p class="caption" style="text-align:left">1</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 ">
+                    <div class="center-to-div">
+                        <img src="./jpg/danish_crown_1.jpg" alt="Wohnatelierhaus altes Weinlager">
+                        <p class="caption" style="text-align:left">2</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="center-to-div">
+                        <img src="./jpg/pigs_1.jpg" alt="Wohnatelierhaus altes Weinlager">
+                        <p class="caption" style="text-align:left">3</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <figure style="margin-bottom: 0;">
+                    <img src="./jpg/redane1.jpg" alt="Wohnatelierhaus altes Weinlager">
+                </figure>
+                <p class="caption" style="text-align:left">4</p>
+            </div>
+
+
+
+            <p class="caption">Fig 1. ”Den danske hvede”. J. Hofman Bang skrev i 1843, Retrieved from: gylle.dk,
+                2020
+                <br>
+                Fig 2. Danish Crown slaughterhouse production lane, Retrieved from:
+                danishcrown.com/en-gb/sustainability/people/, 2020
+                <br>
+                Fig 3. Pigs - Retrieved from danishcrown.com, 2020
+                <br>
+                Fig 4. Monospecies Danish landscape - clip from "Redane", Retrieved from:
+                vimeo.com/82118155, 2020
+
+
+            </p>
+
+
+
+            <!--chere the text begins-->
+
+
+            <br>
+            <b><em>Linking maps with actor diagrams
+                    <br>- the new approach to visualizing change </b></em>
+
+
+            <div id="columns">
+                <p>
+                    The dynamic relationships between human and non-human actors
+                    allow or block a systemic change to happen. Whereas the network diagrams
+                    represent the power relations between the actors, maps represent
+                    the result of these actor interactions - their spatial outcomes - the resulting territories
+                    the actors inhabit.
+
+
+                    <span style="color:tomato">How can we link these two forms of representation and knowledge
+                        to foster systemic and spatial change within the Danish pig industry?
+                    </span>
+
+                </p>
+            </div>
+
+
+
+
+
+
+
+
+            <video class="project-videos" controls loop autoplay muted>
+                <source src="./video/spant-explanation.mp4" type="video/mp4">
+
+            </video>
+
+            <p class="caption">Each of the actors takes its own perspective, uses different 'datasets' and forms its own
+                narratives to break down the systemic complexity.
+                The intersecting nodes might reveal the barriers or enablers of change.
+            </p>
+
+
+
+
+
+            <br>
+            <br>
+            <b><em>Towards Danish landscape reconfiguration</b></em>
+
+            <br>
+
+            <div id="columns">
+
+                Denmark will most probably fail to reach its ambitious goal of 70% reduction
+                in CO2 emissions by 2050<sup>1</sup>.
+                In this context, Denmark’s largest land user - min 34,1%<sup>2</sup>, significant GHG emitter - ca. 7,1%
+                GHG.<sup>3</sup>,
+                and largest contributor to reduced biodiversity<sup>3</sup>, the Danish Pig Industry represents one of
+                the greatest
+                barriers to Denmark’s Green Transition<sup>4</sup>. Despite a limited proportion to GDP<sup>3</sup>, and
+                employment<sup>6</sup>, as an
+                industry with a powerful political lobby and a strong cultural position, it has been largely successful
+                to date in constructing the perception that change is politically and economically impossible.
+
+            </div>
+            </p>
+
+            <div style="width:100%">
+                <video class="project-videos" controls loop autoplay muted>
+                    <source src="./video/maps_ressources.mp4" type="video/mp4">
+                </video>
+                <p class="caption">
+
+                    Most of the vastly monospecies Danish landscape is covered by winter wheat and spring barley fields
+                    used for pig-fodder. <br>
+                    Double-click to enlarge
+                </p>
+            </div>
+
+
+
+
+
+
+
+            <!--
+
+            <div class="row" id="stretch-row">
+
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+
+
+                   
+                 
+                    
+                   
+                 <video class="project-videos" controls autoplay muted>
+                        <source src="./video/Bar Graph Crops-1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12" id="project-videos-id">
+                 
+                </div>
+               
+            </div>
+
+
+        -->
+
+
+
+            <p>
+                <br>
+                <b><em>Plurivocal, Multi-species, Spatial <br>
+                        approach to mapping environonmental issues</b></em>
+                <br>
+
+
+
+            <div id="columns">
+
+                Three features distinguish the developed spatial-actor-network (SPA-ANT) approach to mapping
+                environmental issues
+                from existing ones.
+                First, the plurivocality; each actor may tell her version of the
+                story in different ways. This creates the opportunity for a more informed,
+                collaborative, participatory, democratic process based on diverse sources of data-
+                and knowledge. Second, highly important for environmental governance in the Anthropocene,
+                it focuses upon the heterogeneity of nodes that extend beyond humans to include the non-human
+                actors e.g. pigs, bees etc., acknowledging their agency and formative role in social action.
+                Third, it connects actors and influences to space enabling targeted, spatial policy
+                recommendation and action.
+
+            </div>
+
+            <div class="embed-container">
+                <iframe
+                    src="https://player.vimeo.com/video/518153716#t=1m2s?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                    title="Contested_Territories - SPA-ANT Mapping of the Danish Pig industry"></iframe>
+            </div>
+
+
+            <p class="guideline" style="top:1.2rem">Explore the graph ----> Pick the perspective ----> scroll down to go
+                node by node</p>
+            <div id="3d-graph">
+
+
+            </div>
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a class="button" id="bee">
+                        <!--onclick="incrementer()"-->
+                        <!--REMOVE THE INCREMENTER TO NOT SEE THE VALUES-->
+                        Pick the Bee's perspective
+                    </a>
+                    <a class="button" id="farmer">
+                        <!--REMOVE THE INCREMENTER TO NOT SEE THE VALUES-->
+                        Pick the Pig Farmer's perspective
+                    </a>
+                    <a class="button" id="dipteryx">
+                        <!--REMOVE THE INCREMENTER TO NOT SEE THE VALUES-->
+                        Pick the Amazon Tree perspective
+                    </a>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <!--<a class="button" id="story" > <!--onclick="incrementer()"-->
+                    <!--REMOVE THE INCREMENTER TO NOT SEE THE VALUES
+                Move the story forward
+              </a>-->
+                </div>
+            </div>
+            <br>
+
+
+            <h2>
+                Long read
+            </h2>
+            <br>
+            <b><em>Visualising complexity: actor-network
+                    <br> interdependencies and production of space.
+            </b></em>
+            <br>
+
+            <div id="columns">
+                <p>
+                    The complexity of the pig industry, its interrelated actors, and the opacity of
+                    its corresponding spatial and environmental impacts makes an understanding of these
+                    interdependencies difficult to a non-expert audience, planners, policymakers and politicians.
+                    As, the use and transformation of territories are the result of collective material practices,
+                    behavior and decisions embedded in space over time, (IPCC, 2019; Diaz, S. et al, 2019), it is
+                    the project’s point of departure, that the challenges posed by climate change (UNEP, 2019) and the
+                    deterioration of biodiversity (IPBES, 2019) cannot be met sufficiently, unless a combined
+                    spatial–actor-network
+                    (SPA-ANT) perspective is adopted. Complex patterns of actor-network relationships create mutual
+                    action-outcome dependencies,
+                    which produce space. For example, changes in policy regarding pig feed in one region, contribute to
+                    land use change or
+                    deforestation in another (Zu Ermgassen, 2015). Knowledge of the complex relations between both human
+                    and non-human actors co-producing the contested territories through collective narratives
+                    is essential to understand the spatial, logistical, economic, and societal barriers as well as
+                    enablers of change in the context of the crisis and has long been recognized within the
+                    interdisciplinary scholarship (Berkes et al, 2003; DeFries, 2017).
+                </p>
+            </div>
+
+            <b><em>Breaking the silos.</b></em>
+            <br>
+
+
+            <div id="columns">
+                <p>
+                    The disciplinary boundaries often define the relationships considered; hence, either
+                    ecological or non-human perspectives tend to be oversimplified or disregarded (Pelosi, 2010).
+                    Additionally, the dominance of abstract, quantitative approaches to this crisis resulting in
+                    a limited palette of data visualization formats as well as the use of spatial and actor-network
+                    representations, to interpret existing conditions, neglect the importance and dynamism of the social
+                    landscape, obstruct the debate, co-thinking, and participatory environmental governance (Hajer,
+                    2012),
+                    in which actor relations, influences and scenarios are collectively addressed and evaluated in
+                    spatial
+                    and territorial terms (e.g. Kunze et al., 2012). To navigate within the complexity, the future
+                    citizens,
+                    decision-makers and planners need to be equipped with tools to explore and visualize the
+                    interrelation between
+                    the spatial dynamics of the crisis and the plurivocality of public debate, contested values,
+                    non-human perspectives–
+                    in other words the narratives inherent in environmental issues. Here , the project aims to address
+                    the following questions:
+                    <br>
+                    <em>
+                        1) When a singular, highly centralized and specialized industry such as the pig industry shapes
+                        the
+                        spatial, cultural, political, and biological landscape of a large part of the Danish territory,
+                        how can
+                        SPA-ANT approach and its visualization address the systemic inertia characterizing the sector?
+                        <br><br>
+                        2) Could a collaborative, participatory digital interface for combined actor-network and
+                        territorial
+                        mapping be a relevant tool to communicate and analyze the spatial, societal, economic,
+                        logistical,
+                        regulatory, and ideological interdependencies, obstacles as well as enablers for the green
+                        transition?
+                        <br><br>
+                        3) How can the developed theory and methodology serve as a platform to support expert,
+                        non-expert debate and scenario making, beyond the fragmentation of disciplinary and narrative
+                        perspectives, and of human and non-human interests? How can this eventually become a base for
+                        effective environmental governance and planning?
+                    </em>
+                </p>
+            </div>
+
+            <b><em>Plurivocal, multispecies, enabling</b></em>
+            <br>
+
+            <div id="columns">
+                <p>
+                    Three features distinguish the SPA-ANT from existing approaches.
+                    First, the plurivocality; each actor may tell her version of the story
+                    in different ways. This creates the opportunity for a more informed, collaborative,
+                    participatory, democratic process based on diverse sources of data- and knowledge.
+                    Second, highly important for environmental governance in the Anthropocene,
+                    drawing upon Actor-Network Theory (ANT) (Latour, 1999; 2005; Callon, 1989), it focuses
+                    upon the heterogeneity of nodes that extend beyond humans to include the non-human actors
+                    e.g. pigs, bees etc., acknowledging their agency and formative role in social action (e.g.
+                    what a pig eats conveys to alternative farmers a story about soil fertility etc.). Third, it
+                    connects actors and influences to space enabling targeted, spatial policy recommendation and action.
+
+                    The following diagram presents the conceptual framing of the project:
+
+
+
+
+                </p>
+            </div>
+            <img src="./jpg/Images illustrating long read content-Fig-1.jpg">
+
+            <div id="columns">
+                <p>
+                    Therefore, based on ANT, Controversy Mapping (CM) and post-representational Cartographic Theory,
+                    this project aims to discuss appropriate theory and approaches to visualizing complex actor-network
+                    relations of the DK’s pig industry and their spatial impacts. Furthermore the project, through the
+                    creative use of digital technologies, aimed to develop a participatory online tool for making
+                    interrelations between actors co-producing associated territories visible through collective mapping
+                    of the current conditions and associated actor narratives. The SPA-ANT approach and the interface
+                    are aimed to be tested with stakeholder groups relevant to each case study and attempts to reveal
+                    barriers as well as enablers for the sustainable transition within the industry, through social
+                    network and cartographic analysis methods. It attempts to analyze and visualize three controversies
+                    forming a base for future collaborative scenario making:
+                    <br><br>
+                    Controversy 1 (C1): Controversy: Pig – feed – biodiversity <br><br>
+                    Controversy 2 (C2): Controversy: Genetic Modif. – Antibiotics – Industrialization – Global
+                    Markets, <br><br>
+                    Controversy 3 (C3): Controversy: Traditions – Culture – Lobbies – Politics
+
+
+
+
+                </p>
+            </div>
+            <figure>
+                <img src="./jpg/Danskvolkeparti-Julekampagne.jpg">
+            </figure>
+            <figure>
+                <img src="./jpg/pig_transport.JPG">
+            </figure>
+            <figure>
+                <img src="./jpg/danish_crown_2.jpg">
+            </figure>
+
+
+
+            <p>
+                <b><em>Post-representational cartographic theory, controversy mapping and visual rhetorics.
+                </b></em>
+                <br>
+            </p>
+            <div id="columns">
+                <p>
+                    Deep research into cartographic theory helped to formulate initial
+                    theoretical and methodological foundation for this project, develop visual language,
+                    and code for the interface. A. Yaneva and T. Venturini (2010) - state-of-the-art scholars
+                    in the field of controversy mapping (CM) were consulted in regards to the development of
+                    the SPA-ANT approach and the interface. Yaneva’s (2012) application of the CM method to
+                    architecture, by the usage of digital tools to navigate the socio-technical debates around
+                    spatial objects revealed a great potential to treat them as dynamic, ’possessing an immense
+                    capacity of connecting heterogeneous actors’.<br>
+                    Furthermore, the broad range of applications of ANT in the planning field
+                    addresses not only analytical views on theory (Boelens, 2007), but also
+                    planning methodologies, and policy recommendations (Healey, 2007).
+                    Building upon its historical role (CIAM 1933, Abercrombie 1944),
+                    mapping is a key methodology in the contemporary spatial planning
+                    and design disciplines (Paez, 2019) challenging established
+                    understanding of the world through showing, rather than
+                    telling about less-visible dynamics (i.a. technological,
+                    social, economic, political, ecological) manifested in
+                    space (Weizman 2017, Kurgan et al. 2019). The more recent
+                    renewal of mapping traditions (e.g. van Susteren 2005;
+                    Simpson et al. 2018), invigorated by new technologies (e.g. GIS, ‘big data’) as ‘a means to
+                    make the
+                    complex accessible’ (Abrahams et al. 2006) engages a shift from ‘representational’ and
+                    ‘critical’
+                    mapping towards the ‘post-representational’ (Della Dora, 2009, Kitchin, 2010), which puts
+                    its focus
+                    on the interactions and co-authorships between actors producing it, context and audience.
+                    <br>
+
+                    Both approaches, open possibilities for new ways of mapping and seeing territories
+                    in the Anthropocene, their governance, societal and educational change. However,
+                    both spatial representations (SPA-) and actor-network graphs (-ANT), are rarely
+                    juxtaposed as mutually enriching visualization forms revealing actor-network/territorial
+                    relationships.
+                    The complex actor-network graphs allow often for a ‘thick’ reading (Geertz, 1973) of the
+                    systems’
+                    capacity to change, are often however predominantly abstract, non-spatial, challenging for
+                    the
+                    non-expert audience, and limited in narrative making capabilities. On the other hand, more
+                    accessible, spatial representations offer a wider range of formats to analyze and
+                    communicate, are
+                    usually
+                    limited in revealing actor relations.
+
+                </p>
+            </div>
+
+            <b><em>Engaging the public - networked narratives.
+
+            </b></em>
+            <br>
+
+            <div id="columns">
+
+                <p>
+                    The importance of engaging the public through the use of the participatory visual tools
+                    (IAPP)
+                    and input on viewpoints and environmental issues is widely recognized (i.a. Sheppard, 2001).
+                    Projects revealing their usability in boosting understanding of climate change issues, their
+                    mitigation options (i.a Schroth et al., 2009), and better decision making (Wong and Chua,
+                    2001)
+                    were conducted. However, the literature as well as the practice to date is significantly
+                    less
+                    abundant on the use of visual tools within mapping of the spatial–actor (SPA-ANT) relations
+                    and
+                    actual environmental impact assessment (Oliveira, 2020). Literature review and further
+                    expert
+                    interviews will help to formulate relevant theoretical background for the project. The
+                    developed
+                    digital tool (O2) (i.a. Three.js framework for online 3d-interfaces) aims to merge the
+                    advantages of Public Participation GIS (PPGIS) with Network Analysis Tools (e.g. Gephi). It
+                    aims
+                    to provide a web interface for spatial/actor-network analysis with public input (Sieber,
+                    2006)
+                    allowing for participation by formation of actor-network/spatial narratives by 2d/3d
+                    representations of actors, maps, data visualizations, descriptions etc., and exploration of
+                    the
+                    data over the web (Evans et al. 1999).
+                    In the next phases of the project, snowball sampling, in-depth semi-structured interviews
+                    with a
+                    handful of starting actors (acknowledged through previous research, press, formal positions,
+                    Twitter scraping) representative to each controversy (C1, C2, C3) will be interviewed and
+                    invited to use the tool to present their own perspectives, e.g. a pig fattening farmer from
+                    Ringkøbing-Skjern will form a narrative around C1. pig-feed-biodiversity forming her links
+                    between actors (e.g. pig feed-composition-spring barley, fertilizers- gov. subsidies),
+                    upload
+                    opinions, form maps and hints for data visualizations.
+
+                </p>
+            </div>
+
+            <img src="./jpg/Images illustrating long read content-Fig-2-Tech_Stack.jpg">
+
+
+            <b><em> Towards Scenario making.
+
+            </b></em>
+            <br>
+
+            <div id="columns">
+
+                <p>
+                    Based on the network analysis emerging from the accumulated narratives, negotiation and
+                    scenario
+                    development methodology (Popper, 2008) will be applied: visualization of explorative
+                    scenarios
+                    toward comparative possible futures 2030 and 2050 based on identification of barriers of
+                    change
+                    through network (e.g. Costa et al. 2019) and cartographic analysis of the plurivocal,
+                    multi-species
+                    mappings and narratives (Ingram, 2019).
+                    The project aims to lay further theoretical and methodological foundation for the Scenario
+                    Atlas for
+                    the Green transition (SAGRE) - Mapping and Visualising Green Spatial Restructuring in the
+                    Anthropocene, and continue to engage in the debate with international scholars within the
+                    fields of
+                    spatial and urban planning, cartographic theory and digital methods.
+
+
+                </p>
+            </div>
+
+
+
+
+            <figure>
+                <img src="./jpg/Images illustrating long read content- Fig-3-interface.jpg">
+            </figure>
+            <figure>
+                <img src="./jpg/Images illustrating long read content- Fig-4-interface.jpg">
+            </figure>
+            <figure>
+                <img src="./jpg/Images illustrating long read content- Fig-5-interface.jpg">
+            </figure>
+            <figure>
+                <img src="./jpg/Images illustrating long read content- Fig-6-interface.jpg">
+            </figure>
+
+
+
+
+        </div>
+
+
+
+        <div class="credits">
+
+            <a href="https://www.google.com/maps/place/University+of+Warsaw/@52.2400954,21.0182413,17.25z/data=!4m12!1m6!3m5!1s0x471ecc5e36fa6309:0xa4a1cda06c5afc7f!2sUniversity+of+Warsaw!8m2!3d52.2403463!4d21.0186012!3m4!1s0x471ecc5e36fa6309:0xa4a1cda06c5afc7f!8m2!3d52.2403463!4d21.0186012/"
+                target="_blank">52°14'26.4"N 21°01'01.9"E</a><br>
+            <br>
+            Location: <a href="/location/nuglar/">Denmark</a>, <a href="/location/switzerland/">Poland</a><br>
+            Type: <a href="/type/housing/">Spatial Strategy</a>, <a href="/type/renovation/">Planning</a>
+            <p>Project owners: Aleksander Nowak, Deane Simpson (KADK)<br />
+                Collaborators: Albena Yaneva (University of Manchester), Tommaso Venturini (SciencesPo),<br />
+                Joost
+                Grootens (Design Academy Eindhoven),
+                Linnea Freij (KADK), Serina Kitazono (KADK)<br />
+
+
+
+                <br>
+            <div id="uptop"><a href="#top">Top</a></div>
+            Posted: March 2021<br>
+            Category: <a href="/architecture/">Research</a><br>
+            <br>
+        </div>
+    </section><!-- /main -->
+
+    <script>
+        if (lazyLoadInstance) { lazyLoadInstance.update(); }
+    </script>
+
+    <script src="/js/draggable-element.js"></script>
+
+    <script src="/js/resize-div.js"></script>
+
+    <script src="./js/3d-force-graph-highlight.js"></script>
+
+
+
+</body>
+
+</html>

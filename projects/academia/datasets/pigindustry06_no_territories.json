@@ -1,0 +1,421 @@
+{
+    "nodes": [
+
+
+        
+
+        
+
+
+
+
+
+
+        {"id": "Farmer",              
+            "group": 1, "color": "lightgrey",       
+            "collapsed": true, "childLinks": [], "name": "Landowner", "idToFind": 15,
+
+            "farmerCAMx": -11.549908532633552,
+            "farmerCAMy":  5.2922059415817735,
+            "farmerCAMz": -26.411134523203764,
+
+            "farmerCAMxT": -11.419378938597943,
+            "farmerCAMyT": 5.323508562901612,
+            "farmerCAMzT": -25.420266953477284
+
+
+
+
+        },
+
+        {"id": "Pig feed",              
+            "group": 1, "color": "lightgrey",          
+            "collapsed": true, "childLinks": [], "name": "Pig feed", "idToFind": 15, 
+            "info1_mtl":"Pig feed_info.mtl", "info1_obj":"Pig feed_info.obj",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+            "colorTex":"../01_models_3d/Pig.jpg",
+
+            "farmerCAMx": 10.783517980520935,
+            "farmerCAMy": 1.3092142709869883,
+            "farmerCAMz": 55.29599885379201,
+
+            "farmerCAMxT": -11.419378938597943,
+            "farmerCAMyT": 5.323508562901612,
+            "farmerCAMzT": -25.420266953477284,
+
+
+            "beeCAMx": 10.783517980520935,
+            "beeCAMy": 1.3092142709869883,
+            "beeCAMz": 55.29599885379201,
+           
+            "beeCAMxT": -11.419378938597943,
+            "beeCAMyT": 5.323508562901612,
+            "beeCAMzT": -25.420266953477284,
+        
+            
+         
+
+            "amazonCAMx":  -20.74668840002543,
+            "amazonCAMy":     44.970220946662465,
+            "amazonCAMz": 53.12309024990965,
+
+            "amazonCAMxT":  -20.795083633276747,
+            "amazonCAMyT": 42.2169974033351,
+            "amazonCAMzT": 52.467108394081365
+
+
+    
+
+         
+
+          
+        },
+
+        {"id": "Wheat & Barley",        
+            "group": 1, "color": "lightgrey",          
+            "collapsed": true, "childLinks": [], "name": "Wheat & Barley", "idToFind": 15,  
+                "info1_mtl":"crops_info.mtl", "info1_obj":"crops_info.obj",
+            "description": "",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+            "colorTex":"../01_models_3d/Pig.jpg",
+
+            "farmerCAMx": -76.27317933763844,
+            "farmerCAMy": 4.081532699195408,
+            "farmerCAMz": -2.1310993367341666,
+
+            "farmerCAMxT": -69.92870105938964,
+            "farmerCAMyT": 5.065889798529706,
+            "farmerCAMzT": -7.058275571663848,
+
+        
+
+
+            "beeCAMx": -85.54638836452693,
+            "beeCAMy": 10.073121523249892,
+            "beeCAMz": -30.40033228565813, 
+
+            "beeCAMxT": -85.00586533510041,
+            "beeCAMyT": 9.741890915072386,
+            "beeCAMzT": -29.626949367004038
+
+
+
+        },
+
+        {"id": "Pig",                  
+            "group": 1, "color": "lightgrey",         
+            "collapsed": true, "childLinks": [], "name": "Pig",
+            "info1_mtl":"Pig_Info1.mtl", "info1_obj":"Pig_Info1.obj",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+            "colorTex":"../01_models_3d/Pig.jpg",
+            "audio": "../05_sounds/heartbeat-03.mp3",
+            "description": "16.712.812 pigs slaugthered per year \n 13.162.00 pigs in Denmark",
+            "infosprite": "Crops_Info-16.jpg"
+           
+        },
+
+    
+
+        {"id": "Pesticide",            
+            "group": 1, "color": "lightgrey",          
+            "collapsed": true, "childLinks": [], "name": "Bio- & Pesticides", "idToFind": 15, 
+            "info1_mtl":"Pesticide_info.mtl", "info1_obj":"Pesticide_info.obj",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+            "colorTex":"../01_models_3d/Pig.jpg",
+            
+
+            
+            "beeCAMx": -131.8688819662751,
+            "beeCAMy": 37.08342506698877,
+            "beeCAMz": -30.560406627184157,
+
+
+            "beeCAMxT": -130.88187695387683,
+            "beeCAMyT": 36.978541954390174,
+            "beeCAMzT": -30.43866658368021
+
+        },
+
+        {"id": "Poop",                  
+                "group": 1, "color": "lightgrey",           
+                "collapsed": true, "childLinks": [], "name": "Manure", "idToFind": 15, 
+                "description": "Pig manure is used as fertilizer",
+                "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg"
+        }, 
+    
+
+
+
+        {"id": "Bee", 
+            "group": 1, "color": "lightgrey",     
+            "collapsed": true, "childLinks": [], "name": "Bee", "idToFind": 15, 
+            "description": "Biodiversity is .....",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg",
+
+                "beeCAMx": -155.82086264821123,
+                "beeCAMy": 16.17608077314555,
+                "beeCAMz": -82.74275054272339,
+    
+                "beeCAMxT": -155.0223419587395,
+                "beeCAMyT": 16.16789247698157,
+                "beeCAMzT": -82.1408388712204
+
+
+
+        },
+
+        {"id": "Biodiversity",   
+            "group": 1, "color": "lightgrey",        
+            "collapsed": true, "childLinks": [], "name": "Biodiversity in the Amazon", "idToFind": 15, 
+            "description": "Biodiversity is .....",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg"
+        },
+
+
+
+        {"id": "CO2", 
+            "group": 1, "color": "lightgrey",    
+            "collapsed": true, "childLinks": [], "name": "CO2", "idToFind": 15, 
+            "description": "xx",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg"
+        },
+
+
+
+
+
+        {"id": "Soy bean", 
+            "group": 1, "color": "lightgrey",     
+            "collapsed": true, "childLinks": [], "name": "Soy bean", "idToFind": 15, 
+            "description": "The soy bean (Glycine Max) is a specied of legume native to East Asia.",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg",
+
+
+                "amazonCAMx":  -22.39435904986206,
+                "amazonCAMy":    -120.69161958570012,
+                "amazonCAMz": -46.04904862578807,
+    
+                "amazonCAMxT":  -23.14338675433013,
+                "amazonCAMyT": -128.09819972241431,
+                "amazonCAMzT": -45.28428345089235
+
+
+        },     
+       
+      
+        
+        {"id": "Amazon Biodiversity",   
+            "group": 1, "color": "lightgrey", 
+            "collapsed": true, "childLinks": [], "name": "Biodiversity in the Amazon", "idToFind": 15, 
+            "description": "Biodiversity is .....",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg",
+
+        
+
+                "amazonCAMx":  66.3864841400483,
+                "amazonCAMy":   -112.21272008873565,
+                "amazonCAMz": -67.93578270682343,
+    
+                "amazonCAMxT": 65.267060092782614,
+                "amazonCAMyT": -118.23397731663742,
+                "amazonCAMzT": -67.7936048544039
+
+
+        },
+
+
+
+        {"id": "Smorebrod", 
+            "group": 1, "color": "black",    
+            "collapsed": true, "childLinks": [], "name": "Food Culture", "idToFind": 15, 
+            "description": "xx",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg"
+        },
+
+        {"id": "Fattening farm", 
+            "group": 1, "color": "lightgrey",       
+            "collapsed": true, "childLinks": [], "name": "Fattening farm", 
+            "description":"16.712.812 pigs slaugthered per year \n 13.162.00 pigs in Denmark" ,
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg"
+        },
+
+        {"id": "Pigglet", 
+            "group": 1, "color": "lightgrey",     
+            "collapsed": true, "childLinks": [], "name": "Pigglet", "idToFind": 15, 
+            "description": "xx",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg"
+        },
+
+        {"id": "Politician", 
+            "group": 1, "color": "lightgrey",       
+            "collapsed": true, "childLinks": [], "name": "Politician", "idToFind": 15, 
+            "description": "Biodiversity is .....",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg"
+        },
+
+        {"id": "Frog", 
+            "group": 1, "color": "lightgrey",       
+            "collapsed": true, "childLinks": [], "name": "Frog", "idToFind": 15, 
+            "description": "Biodiversity is .....",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg"
+        },
+
+        {"id": "Bird", 
+            "group": 1, "color": "lightgrey",     
+            "collapsed": true, "childLinks": [], "name": "Bird", "idToFind": 15, 
+            "description": "Biodiversity is .....",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg"
+        },
+
+        {"id": "Danish Crown", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15, 
+            "description": "Biodiversity is .....",
+            "desaturateTex": "../01_models_3d/desaturate/Pig.jpg",
+                "colorTex":"../01_models_3d/Pig.jpg"
+        },
+
+        {"id": "other1", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15 
+        },
+        {"id": "other2", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15 
+        },
+        {"id": "other3", 
+            "group": 2, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15 
+        },
+        {"id": "other4", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15 
+        },
+        {"id": "other5", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15 
+        },
+        {"id": "other6", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15 
+        },
+        {"id": "other7", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15 
+        },
+        {"id": "other8", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15 
+        },
+        {"id": "other9", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15
+        },
+         {"id": "other10", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15
+        },
+        {"id": "other11", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15 
+        },
+        {"id": "other12", 
+            "group": 1, "color": "lightgrey",      
+            "collapsed": true, "childLinks": [], "name": "Danish Crown", "idToFind": 15
+        }
+
+        
+     
+
+        
+    ],
+
+
+    "links": [
+
+   
+        
+
+
+        {"source": "CO2",                       "target": "Poop", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+        {"source": "Fattening farm",            "target": "Danish Crown", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Fattening farm",            "target": "Farmer", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+        {"source": "Danish Crown",              "target": "Politician", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        
+        {"source": "Smorebrod",                 "target": "Politician", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+        {"source": "Pesticide",                 "target": "Wheat & Barley", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Pesticide",                 "target": "Bee", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+        {"source": "Poop",                      "target": "Wheat & Barley", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+        {"source": "Wheat & Barley",            "target": "Farmer", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Wheat & Barley",            "target": "Pig feed", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},     
+
+        {"source": "Pig feed",                  "target": "Pig", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Pig feed",                  "target": "Fattening farm", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+        {"source": "Soy bean",                  "target": "Pig feed", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Soy bean",                  "target":  "Amazon Biodiversity", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+
+       
+        {"source": "Bee",                       "target": "Bird", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Bee",                       "target": "Frog", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+        {"source": "Biodiversity",                       "target": "Frog", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Biodiversity",                       "target": "Bee", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Biodiversity",                       "target": "Wheat & Barley", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+
+
+
+
+
+        {"source": "Pig",                       "target": "Farmer", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Pig",                       "target": "Fattening farm", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Pig",                       "target": "Smorebrod", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Pig",                       "target": "Poop", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Pig",                       "target": "Pigglet", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+
+
+
+
+       
+
+        {"source": "Pig",                       "target": "other1", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "CO2",                       "target": "other2", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Fattening farm",            "target": "other3", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Pesticide",                 "target": "other4", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Pig feed",                  "target": "other5", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Bee",                       "target": "other6", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "Pig",                       "target": "other8", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+
+        {"source": "other8",                       "target": "other9", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "other9",                       "target": "other10", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "other4",                       "target": "other11", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"},
+        {"source": "other5",                       "target": "other12", "value": 1, "name": "Pig * 26 mln needs eat xxx tons of fodder per year", "color":"#c78f8f"}
+
+
+
+
+
+      
+    ]
+  }
+  

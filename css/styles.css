@@ -20,6 +20,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
+		font-family: Georgia, 'Times New Roman', Times, serif; /*"AOP Univers", "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;*/
 		margin: 0;
 	    padding: 0;
 	    border: 0;
@@ -134,9 +135,9 @@ input, select {
 ----------------------------------------------- */
 
 body {
+		width:100%;
 		color: #111;
 		background: #fff;
-		font-family: 'Times New Roman', Times, serif; /*"AOP Univers", "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;*/
 		font-size: 1rem;
 		line-height: 20px;
 		letter-spacing: 0.02em;
@@ -300,12 +301,26 @@ header .pagesearch {
 #main img {
 		max-width: 100%;
 		height: auto;
+		
 }
 
+.center-to-div {
+
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
 /*		O V E R V I E W
 ----------------------------------------------- */
 
+/*---- project sites Aleks */
+
+.project-videos {
+
+	width:100%;
+}
 
 /*		Aleks rows and columns
 ----------------------------------------------- */
@@ -396,6 +411,141 @@ header .pagesearch {
 ----------------------------------------------- */
 
 
+div#columns {
+	column-width: 20em;
+	column-gap: 2em;
+	column-rule: 0.15px solid rgb(201, 201, 201);
+	margin: 5% 0%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+div#stretch-row {
+	width: 180%;
+}
+
+
+
+
+
+.draggable {
+	
+	position: absolute;
+	z-index: 10;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	cursor: default;
+
+}
+  /*
+  #mdraggable-divheader {
+	padding: 10px;
+	cursor: move;
+	z-index: 10;
+	background-color: #2196F3;
+	color: #fff;
+  }*/
+
+  .videoInsert {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%; 
+	height:100%;
+
+    background-size: cover;
+}
+
+.guideline {
+
+	top:100%;
+	color: rgb(129, 129, 129);
+	z-index: 500;
+	text-align: center;
+	position: relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.8rem;
+	font-style: italic;
+
+}
+
+.embed-container {
+	--video--width: 1296;
+	--video--height: 540;
+  
+	position: relative;
+	padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); /* 41.66666667% */
+	overflow: hidden;
+	max-width: 100%;
+	background: black;
+  }
+  
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+
+.caption {
+	position: relative;
+	color: rgb(129, 129, 129);
+	z-index: 500;
+	text-align: center;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.8rem;
+	font-style: italic;
+
+}
+
+hr.solid {
+	border-top: 1px solid rgb(129, 129, 129);
+  }
+
+.scene-container {
+	background-image: linear-gradient(to top, #000000,#141414, #141414, #000000);
+	width:150% !important;
+	height:150% !important;
+}
+
+canvas {
+	width:100% !important;
+	height:100% !important;
+}
+
+
+.button {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+	color:tomato;
+	padding: 1%;
+	display: block;
+	background-color: white;
+	cursor: pointer;
+}
+/*
+#resizable-div {
+	
+	position: absolute;
+	min-height: 250px;
+    min-width: 250px;
+    resize: both;
+    overflow: auto;
+    /*max-height: fit-content;
+	max-width: fit-content;
+	
+
+}*/
+
+
+
 
 
 
@@ -447,6 +597,9 @@ header .pagesearch {
 	line-height: 1.1;
 }
 
+
+
+/*
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -457,7 +610,7 @@ header .pagesearch {
   }
   
   /* Create four equal columns that sits next to each other */
-  .column {
+  /*.column {
 	flex: 40%;
 	max-width: 100%;
 	margin: 35px;
@@ -472,7 +625,7 @@ header .pagesearch {
 
 	vertical-align: middle;
   }
-
+  */
 /* VISUALISATION BUTTONS!!! */
 /* VISUALISATION BUTTONS!!! */
 /* VISUALISATION BUTTONS!!! */
@@ -716,12 +869,12 @@ figcaption {
 
 /* landing section */
 
-#landing {
+/*#landing {
 	
 	height: 600px;
 	background-color: rgb(247, 247, 247);
 	margin:0 0 5%;
-	
+
 }
 
 #intro-video-container {
@@ -729,27 +882,27 @@ figcaption {
 	position: absolute;
 	overflow: hidden;
 	width:50%;
-	height: 600px; /*dirty way - same px as #landing */	
-}
+	height: 600px; /*dirty way - same px as #landing 
+}*/	
 
-#intro-video {
+/*#intro-video {
 	position: absolute;
 	top:  -240px;
 	
-}
+}*/
 
 
 .landing-text {
-	position: relative;
-	display: inline-flex;
+	margin: 0 auto;
+	margin-top: 50%;
 	width: 50%;
-	height: 100%;
 	justify-content: center;
 	align-items: center;
+	transform: translate(-0, -50%);
 }
 
 p#text  {
-            width: 50%;
+            
             font-size: 1.3rem;
             text-align: center;
 		}
@@ -806,15 +959,7 @@ p#text  {
 ----------------------------------------------- */
 @media screen and (min-width: 300px) {
 
-	.row {
-		display: block;
-		flex-wrap: wrap;
-		padding: 0 0px;
-		position: relative;
-		vertical-align: middle;
-		border: 10px; /*solid red;*/
 
-}
 
 
 @media screen and (min-width: 650px) {
@@ -868,7 +1013,7 @@ header form {
 
 
 /*all screens with min width 650 px e.g. iPAD*/
-.column {
+/*.column {
 	flex: 40%;
 	max-width: 45%;
 	margin: 15px;
@@ -882,9 +1027,10 @@ header form {
 	padding: 0 0px;
 	position: relative;
 	vertical-align: middle;
-	border: 10px; /*solid blue;*/
+	border: 10px; /*solid blue;
 	justify-content: center
   }
+  */
   
 
 
@@ -1107,6 +1253,12 @@ header form {
 		letter-spacing: inherit;
 		width: 75%;
 		padding-bottom: 5px;
+}
+
+.black {
+	background-color: WHITE;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 figcaption {
@@ -1348,7 +1500,7 @@ header #search {
 		margin-right: 5px;
 }
 
-
+/*
 .row {
 	display: inline-flex;
 	flex-wrap: wrap;
@@ -1357,7 +1509,7 @@ header #search {
   }
   
   /* Create four equal columns that sits next to each other */
-  .column {
+/*  .column {
 	flex: 30%;
 	max-width: 30%;
 	padding: 0 0px;
@@ -1369,6 +1521,8 @@ header #search {
   }
 
 }
+
+*/
 
 
 

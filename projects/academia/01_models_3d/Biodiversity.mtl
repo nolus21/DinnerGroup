@@ -1,0 +1,80 @@
+# Rhino
+newmtl Amazon_Grass
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 0.9961
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd Amazon_Grass.png
+
+newmtl Biodiversity_Grass
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 0.9961
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd Biodiversity_Grass.png
+
+newmtl sea
+Ka 0.0000 0.0000 0.0000
+Kd 0.8275 0.8824 0.8824
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 0.1278
+Ns 0
+
+newmtl Biodiversity_Swamp
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 0.9961
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd Biodiversity_swamp.jpg
+
+newmtl Biodiversity Dirt
+Ka 0.0000 0.0000 0.0000
+Kd 0.5216 0.4039 0.3765
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd Biodiversity_Dirt.jpg
+
+newmtl Biodiversity_Bird
+Ka 1.0000 1.0000 1.0000
+Kd 1.0000 1.0000 1.0000
+Ks 0.2706 0.2706 0.2706
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 12.75
+map_Kd Biodiversity_Bird.jpg
+
+newmtl Biodiversity_Frog
+Ka 1.0000 1.0000 1.0000
+Kd 1.0000 1.0000 1.0000
+Ks 0.1804 0.1804 0.1804
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 142.8
+map_Kd Biodiversity_Frog.jpg
+
+newmtl Biodiversity_Bee
+Ka 0.0000 0.0000 0.0000
+Kd 0.9922 0.6235 0.0353
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd Biodiversity_Bee.png
+
+newmtl co2 copy
+Ka 0.0000 0.0000 0.0000
+Kd 0.2471 0.2471 0.2510
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 0.1412
+Ns 0
+

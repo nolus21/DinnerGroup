@@ -1,0 +1,64 @@
+# Rhino
+newmtl Amazon_Oak
+Ka 0.5882 0.5882 0.5882
+Kd 0.5882 0.5882 0.5882
+Ks 0.0000 0.0000 0.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 25.5
+map_Kd Amazon_Oak.jpg
+
+newmtl Amazon_Palm 1
+Ka 0.5882 0.5882 0.5882
+Kd 0.5882 0.5882 0.5882
+Ks 0.0000 0.0000 0.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 25.5
+map_Kd Amazon_Palm 1.jpg
+
+newmtl Amazon_Toucan
+Ka 1.0000 1.0000 1.0000
+Kd 1.0000 1.0000 1.0000
+Ks 0.0000 0.0000 0.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 25.5
+map_Kd Amazon_Toucan.jpg
+
+newmtl Amazon_Dirt
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 0.9922
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd Amazon_Dirt.jpg
+
+newmtl Amazon_Swamp
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 0.9961
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd Amazon_Swamp.jpg
+
+newmtl Amazon_Grass
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 0.9961
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd Amazon_Grass.png
+
+newmtl Amazon_Frog
+Ka 1.0000 1.0000 1.0000
+Kd 1.0000 1.0000 1.0000
+Ks 0.2824 0.3059 0.2471
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 84.15
+map_Kd Amazon_Frog.jpg
+

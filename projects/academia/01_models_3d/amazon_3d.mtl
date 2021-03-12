@@ -1,0 +1,19 @@
+# Rhino
+newmtl Amazon_Dirt
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 0.9922
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd Amazon_Dirt.jpg
+
+newmtl Map_Amazon 2
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 0.9961
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0
+map_Kd Amazon_Map_XL.jpg
+

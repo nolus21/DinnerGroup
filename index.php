@@ -17,11 +17,6 @@
     <script src="./js/lazyload.js"></script>
 
 
-
-
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
   <script src="//unpkg.com/three"></script>
 
@@ -73,9 +68,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <!--bootstrap-->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
 
 
 
@@ -165,10 +160,25 @@
 
 
 
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="landing-text">
+        <p id="text">The dinner.group is not so much a 'company' in a traditional sense, but a 
+          method of making decisions and generating ideas that lead to meaningful results.</p>
+    </div>
+    <div class="col-lg-6">
+    <?php echo file_get_contents("./projects/academia/sdw/kl/SDW_KL-SvendGS-AXO - Detailed-01.svg"); ?>
 
+    <!--<video id="intro-video" controls autoplay muted>
+        <source src="projects/architecture/skylense/video/skylense-intro.mp4" type="video/mp4">
+        </video>-->
+    </div>
+  </div>
+ 
 
+<!--
 <section id="landing">
-
+  
   <div class="landing-text">
       <p id="text">The dinner.group is not so much a 'company' in a traditional sense, but a 
         method of making decisions and generating ideas that lead to meaningful results.</p>
@@ -190,16 +200,16 @@
 
 </section>
 
-
+-->
 <section id="main" class="overview">       
-    <a >
+    <a  href='./projects/academia/contested_territories/'>
         <div class="threejs-canvas" id="contested-territories">
         <canvas id="my_canvas" ></canvas>
         
             
 
         </div>
-            <span href='./projects/architecture/kladkapoznan/'><small>Infrastructure</small><br>
+            <span><small>Infrastructure</small><br>
             Pedestrian and cycling bridge</span>
     </a>  
 
